@@ -1,4 +1,3 @@
-# Hit Mechanics of Random Number Based Game
 #### Author:
 Baldessarini
 
