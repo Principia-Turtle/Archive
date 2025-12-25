@@ -3,7 +3,7 @@
 Baldessarini
 
 ## Introduction
-Mathematically we are dealing with a pseudo random number generator which determines number of successes in a sequence of N independent experiments, each asking a yes–no question: Will it hot or not? Will it crit or not? Etc. such a system is described by Binomial distribution.
+Mathematically we are dealing with a pseudo random number generator which determines number of successes in a sequence of N independent experiments, each asking a yes–no question: Will it hit or not? Will it crit or not? Etc. such a system is described by Binomial distribution.
 
 >I assume the trials are independent of each other, meaning the game doesn't remember how many times I didn't suceed a trial to make it more likely, but rather just putting a chance of successful trial on each hit.
 
@@ -45,6 +45,10 @@ $$
 
 >This is 8.6% chance only to get the exact amount of successful trials. A
 
-As raiders we are rather interested in the chance of getting exactly 30, or more, which is then: 53.77%
+As raiders we are rather interested in the chance of getting exactly 30, or more, which is then: 53.77% 
 
-![[graph-bernoulli.png]]
+We can plot how the effect of different p (on hit chance) behaves when we consider this logic:
+
+![[media/graph-bernoulli.png]]
+
+There are diminishing returns from around 40% onward
