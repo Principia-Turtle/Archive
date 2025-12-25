@@ -8,7 +8,7 @@ Mathematically we are dealing with a pseudo random number generator which determ
 >I assume the trials are independent of each other, meaning the game doesn't remember how many times I didn't suceed a trial to make it more likely, but rather just putting a chance of successful trial on each hit.
 
 ## The formula
-The probability of getting exactly k successes in n independent Bernoulli trials (with rate of probability p) is given by the probability mass function:
+The probability of getting exactly k successes in N independent Bernoulli trials (with rate of probability p) is given by the probability mass function:
 
 $$
 \begin{pmatrix}
@@ -51,4 +51,5 @@ We can plot how the effect of different p (on hit chance) behaves when we consid
 
 ![[media/graph-bernoulli.png]]
 
-There are diminishing returns from around 40% onward
+This plot doesn't show how many crits we will get, but the chance of scoring more, than is our crit chance. The sweet spot seems to be somewhere around 40% for crit chance, where I can be almost sure we get more crits, than is the actual rating. Also having less than 20% will yield diminishing returns, where we are destined to score less, than is our rating.
+>Also note it can be adjusted to hits, resists, glancing blows or partials too
