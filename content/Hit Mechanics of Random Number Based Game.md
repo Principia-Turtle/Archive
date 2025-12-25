@@ -43,7 +43,10 @@ $$
 (1-0.3)^{100-30} = 0.086784
 $$
 
->This is 8.6% chance only to get the exact amount of successful trials. A
+>This is 8.6% chance only to get the exact amount of successful trials.
+
+
+## Diminishing returns
 
 As raiders we are rather interested in the chance of getting exactly 30, or more, which is then: 53.77% 
 
