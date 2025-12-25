@@ -52,7 +52,7 @@ As raiders we are rather interested in the chance of getting exactly 30, or more
 
 We can plot how the effect of different p (on hit chance) behaves when we consider this logic:
 
-![[media/graph-bernoulli.png]]
+![[graph-bernoulli.png]]
 
 This plot doesn't show how many crits we will get, but the chance of scoring more, than is our crit chance. The sweet spot seems to be somewhere around 40% for crit chance, where I can be almost sure we get more crits, than is the actual rating. Also having less than 20% will yield diminishing returns, where we are destined to score less, than is our rating.
 >Also note it can be adjusted to hits, resists, glancing blows or partials too
