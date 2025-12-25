@@ -46,3 +46,5 @@ $$
 >This is 8.6% chance only to get the exact amount of successful trials. A
 
 As raiders we are rather interested in the chance of getting exactly 30, or more, which is then: 53.77%
+
+![[graph-bernoulli.png]]
