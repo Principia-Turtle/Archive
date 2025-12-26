@@ -67,3 +67,24 @@ Knowing that, we can compute the probability that our white attacks will glance,
 
 ![media/graph-melee-miss-chance.png](../media/graph-melee-miss-chance.png)
 
+$$
+\begin{pmatrix}
+Weapon skill &  Miss chance & DW miss chance & Glance penalty \\
+300 & 8 & 26.4 & 35 \\
+305 & 6 & 24.8 & 15 \\
+308 & 5.7 & 24.56 & 3 \\
+310 & 5.5 & 24.4 & 1 \\
+315 & 5 & 24 & 1
+\end{pmatrix}
+$$
+
+As we can see, weapon skill not only reduces the glancing blow damage penalty, it also reduces the hit cap and the P(Miss)
+
+Similarly, the impact of weapon skill on the P(miss) and hit cap is clearer when shown graphically:
+
+![media/graph-melee-miss-chance-2.png](../media/graph-melee-miss-chance-2.png)
+
+This is why weapon skill is so important: not only does it reduce the glancing blow damage penalty, 
+it removes the inherit 1% hit suppresion, and significantly reduces P(miss) until 305. 
+This is also why a weapon skill of at least 305 and at most 308 is highly recommended.
+
