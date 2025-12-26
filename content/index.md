@@ -3,6 +3,7 @@ title: The Principia Archive
 ---
 
 Principia is a theorycrafting community of Turtle WoW, but we try not to forget to be respectful to others, who enjoy different aspects of the game.
+>So far it is a community of one person ;D
 
 This archive serves as a theoretical hub. To navigate the archive, expand the graph view. Here we try to share actual knowledge based on facts and mathematics, which everyone can test themselves. We hope you will learn something new browsing the archive.
 
