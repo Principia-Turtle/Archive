@@ -57,3 +57,13 @@ Glancing blows are a type of attack that can only occur when fighting an enemy o
 and are restricted to white attacks. In accordance with Beaza, magey et al.
 have determined the glancing blow probability to be as follows:
 
+$$
+P(glancing) = 0.1 + (T(lvl) x 5 - min(Atk(lvl) x 5, Atk(skill)) x 0.02
+$$
+
+Where Atk(lvl) is characters level and Atk(skill) is characters active weapon skill
+
+Knowing that, we can compute the probability that our white attacks will glance, and the damage penalty that that glancing blow carries against enemies of different levels:
+
+![media/graph-melee-miss-chance.png](../media/graph-melee-miss-chance.png)
+
