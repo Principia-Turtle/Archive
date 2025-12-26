@@ -1,5 +1,4 @@
-#### Author:
-Baldessarini
+[[Author-Baldessarini]]
 
 ## Introduction
 Mathematically we are dealing with a pseudo random number generator which determines number of successes in a sequence of N independent experiments, each asking a yes–no question: Will it hit or not? Will it crit or not? Etc. such a system is described by Binomial distribution.
