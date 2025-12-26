@@ -2,17 +2,15 @@
 title: The Principia Archive
 ---
 
-# Welcome to <Principia>
+Principia is a theorycrafting community of Turtle WoW, but we try not to forget to be respectful to others, who enjoy different aspects of the game.
 
-We are a theorycrafting guild, but we try not to be too jerky about it.
+This archive serves as a theoretical hub. To navigate the archive, expand the graph view. Here we try to share actual knowledge based on facts and mathematics, which everyone can test themselves. We hope you will learn something new browsing the archive.
 
-This archive serves as a theoretical hub for Turtle WoW. To navigate the archive, expand the graph view. Here we try to share actual knowledge based on facts and mathematics, which everyone can test themselves.
+In the future we would like to establish some sort of peer review with other guilds.
 
-In the future I would like to establish some sort of peer review with other guilds.
+>We believe knowledge should be free to access. But a lot of our time we have dedicated to theorycrafting instead of gold farming. We will be happy if you send an in-game-mail tip to the author of the node you found useful.
 
->We believe knowledge should be free to access. But a lot of our time we have dedicated to theorycrafting instead of farming golds. We will be happy if you send an in-game-mail tip to the author of the node you found useful.
-
-### 🔍 The Core Protocols
+### 🔍 Foundational mathematics
 * **[[Hit Mechanics of Random Number Based Game]]**: How does RNG work in WoW? Mathematics for misses, crits, resists and so on.
 
 ### 📚 The Department of Theory
