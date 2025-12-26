@@ -67,3 +67,13 @@ From this we can conclude, that on-hit RNG mechanics, like crit, hit, etc. are m
 If you fight the boss 1,000 times with 0.3 chance, your total score will be exactly 30% of total hits. The math balances out perfectly. But in one encounter you don't get the average, you get a random unreliable sample. As raiders we don't care that much what was our DPS in the whole progression evening, we care if we did our job correctly on a single encounter, which can be a guild first-kill. What I mean by volatility is then "How likely I am to fail on a single encounter". Volatility approaches average with a large number of trials and needs to be adjusted for each class, specialisation and raider based on their attack speed. Here I have increased p = 36% and I check for k = 30% on a 100-hit fight. So I treat crit chance as 20% less effective.
 
 ![[graph-bernoulli-3.png]]
+
+## Sources
+
+https://en.wikipedia.org/wiki/Binomial_distribution
+
+## Python
+
+You can run the script used to generate the plots in google colab
+
+![[hit_mechanics_of_random_number_based_game.py]]
