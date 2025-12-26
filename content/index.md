@@ -1,5 +1,7 @@
 ---
 title: The Principia Archive
+tags:
+  - no-graph
 ---
 
 Principia is a theorycrafting community of Turtle WoW.
