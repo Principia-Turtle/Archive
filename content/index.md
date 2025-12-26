@@ -17,7 +17,7 @@ In the future we would like to establish some sort of peer review with other gui
 ### 🔍 Authors
 **[[Author-Baldessarini]]** Founder of Principia
 
-### 📚 The Department of Theory
+### 📚 Classes
 * [[Mage]]
 * [[Hunter]]
 * [[Paladin]]
