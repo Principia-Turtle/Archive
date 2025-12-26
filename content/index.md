@@ -18,10 +18,5 @@ In the future we would like to establish some sort of peer review with other gui
 **[[Author-Baldessarini]]** Founder of Principia
 
 ### 📚 Classes
-* [[Mage]]
-* [[Hunter]]
-* [[Paladin]]
-* [[Priest]]
-* [[Warlock]]
-* [[Warrior]]
+
 
