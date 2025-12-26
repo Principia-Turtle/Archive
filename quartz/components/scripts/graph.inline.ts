@@ -151,10 +151,26 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       tags: data.get(url)?.tags ?? [],
     }
   })
+  // THE BOUNCER: Define what makes a node valid
+  const isValidNode = (n: NodeData) => {
+    if (n.id === "index") return false // Hide Index
+    if (n.tags.includes("no-graph")) return false // Hide tags
+    return true
+  }
+
   const graphData: { nodes: NodeData[]; links: LinkData[] } = {
-    nodes,
+    // 1. Filter the nodes list
+    nodes: nodes.filter(isValidNode),
+    
+    // 2. Filter the links list (ensure both ends of the link are valid nodes)
     links: links
       .filter((l) => neighbourhood.has(l.source) && neighbourhood.has(l.target))
+      .filter((l) => {
+          const sourceNode = nodes.find((n) => n.id === l.source)
+          const targetNode = nodes.find((n) => n.id === l.target)
+          // Only keep link if both source and target are valid
+          return sourceNode && targetNode && isValidNode(sourceNode) && isValidNode(targetNode)
+      })
       .map((l) => ({
         source: nodes.find((n) => n.id === l.source)!,
         target: nodes.find((n) => n.id === l.target)!,
