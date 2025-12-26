@@ -54,6 +54,7 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 1,
         removeTags: [], // Hide specific tags from the graph
         showTags: true,
+        removeTags: ["no-graph"], // Hides the tag node AND any file with this tag
       },
       globalGraph: {
         drag: true,
@@ -67,6 +68,8 @@ export const defaultContentPageLayout: PageLayout = {
         opacityScale: 1,
         removeTags: [], // Hide specific tags from the graph
         showTags: true,
+        removeTags: ["no-graph"], 
+        showTags: false,
       },
     }),
     Component.DesktopOnly(Component.TableOfContents()),
