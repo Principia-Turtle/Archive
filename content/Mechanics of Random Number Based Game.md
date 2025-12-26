@@ -69,6 +69,10 @@ If you fight the boss 1,000 times with 0.3 chance, your total score will be exac
 
 ![media/graph-bernoulli-3.png](../media/graph-bernoulli-3.png)
 
+## So how to approach it?
+
+Both approaches via volatility and average are legitimate based on the situation. Maybe your class does majority of its damage in execution phase, then you might aim to reduce volatility. Or maybe you have very short casts or you prepare for a long encounter, then you might focus on the average.
+
 ## Sources
 
 https://en.wikipedia.org/wiki/Binomial_distribution
