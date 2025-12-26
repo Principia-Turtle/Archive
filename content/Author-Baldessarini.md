@@ -19,3 +19,5 @@ So I have stepped down and left for UNIQUE, where we managed some records for th
 Then when I realised I have spent 2 years of time in WoW and that it was around 10% of the total time I have lived, I deleted all my characters and left the game. Until now! Tadaa!
 
 I have written some thorough theorycrafting back then on mage mechanics. But now I see it is just one aspect of the game. I got fairly good at it yes, but there are far better roleplayers than me, or people who are great on the social part, or people who are incredible in PvP, or AH market control. I lack a lot in those aspects of the game :)
+
+https://youtu.be/TgX9UYKg_dE
