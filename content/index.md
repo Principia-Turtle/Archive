@@ -13,6 +13,9 @@ In the future we would like to establish some sort of peer review with other gui
 ### 🔍 Foundational mathematics
 * **[[Hit Mechanics of Random Number Based Game]]**: How does RNG work in WoW? Mathematics for misses, crits, resists and so on.
 
+### 🔍 Authors
+**[[Author-Baldessarini]]** Founder of Principia
+
 ### 📚 The Department of Theory
 * [[Mage]]
 * [[Hunter]]
