@@ -57,7 +57,7 @@ This plot doesn't show how many crits we will get, but the chance of scoring mor
 ## Long encounters
 The graph will differ when we consider a smaller or larger number of trials. The more trials we have (longer encounter), the more the function will look like a step on staircase - meaning the more likely we will get our actual successful trial chance rating. 
 
-![graph-bernoulli-2.png](media/graph-bernoulli.png)
+![graph-bernoulli-2.png](media/graph-bernoulli-2.png)
 
 From this we can conclude, that on-hit RNG mechanics, like crit, hit, etc. are more prone to deviations if we have a long cast time, or a slow weapon.
 
@@ -65,7 +65,7 @@ From this we can conclude, that on-hit RNG mechanics, like crit, hit, etc. are m
 
 If you fight the boss 1,000 times with 0.3 chance, your total score will be exactly 30% of total hits. The math balances out perfectly. But in one encounter you don't get the average, you get a random unreliable sample. As raiders we don't care that much what was our DPS in the whole progression evening, we care if we did our job correctly on a single encounter, which can be a guild first-kill. What I mean by volatility is then "How likely I am to fail on a single encounter". Volatility approaches average with a large number of trials and needs to be adjusted for each class, specialisation and raider based on their attack speed. Here I have increased p = 36% and I check for k = 30% on a 100-hit fight. So I treat crit chance as 20% less effective.
 
-![graph-bernoulli-3.png](media/graph-bernoulli.png)
+![graph-bernoulli-3.png](media/graph-bernoulli-3.png)
 
 ## Sources
 
