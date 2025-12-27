@@ -4,7 +4,7 @@
 
 ## Archive link connections
 
-[[Mechanics of Random Number Based Game.md]]
+[[Mechanics of Random Number Based Game.md]], [[Hit cap vs. attack speed.md]]
 
 
 # Introduction
@@ -84,7 +84,11 @@ Similarly, the impact of weapon skill on the P(miss) and hit cap is clearer when
 
 ![media/graph-melee-miss-chance-2.png](../media/graph-melee-miss-chance-2.png)
 
-This is why weapon skill is so important: not only does it reduce the glancing blow damage penalty, 
+This is why weapon skill is important: not only does it reduce the glancing blow damage penalty, 
 it removes the inherit 1% hit suppresion, and significantly reduces P(miss) until 305. 
-This is also why a weapon skill of at least 305 and at most 308 is highly recommended.
+This is also why a weapon skill of at least 305 and at most 308 is recommended.
+
+# Continue reading
+
+But what if choose to get more attack speed instead of hit, have more misses, but on the other hand have more hits? Read: [[Hit cap vs. attack speed.md]]
 
