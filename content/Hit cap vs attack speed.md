@@ -67,4 +67,4 @@ Tall and narrow curve means the build is consistent, wide and short means it is 
 ![media/hit-cap-vs-attack-speed-2.png](../media/hit-cap-vs-attack-speed-2.png)
 
 So there we have two approaches to the problem, one is from average standpoint, other is from stochastic. The graphs show beautifuly safe approach (hit) vs. risky one (speed). 
-Both will produce the same average damage output, but attack speed will help you set new records.
+Both will produce the same average damage output, but attack speed will help you set new records. If you get an option 2% attack speed vs. 1% hit? I would personally go for the attack speed.
