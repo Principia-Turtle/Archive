@@ -14,7 +14,7 @@ This archive serves as a theoretical hub. To navigate the archive, expand the gr
 We believe knowledge should be always free to access. But a lot of our time we have dedicated to theorycrafting instead of gold farming. We will be happy if you send an in-game-mail tip to the authors of the nodes you found useful. It is our way of farming.
 
 ### Foundations
-**[[Mechanics of Random Number Based Game]]**: How does random number based game work.
+**[[Mechanics of Random Number Based Game]]**: How does combat in a random number based game work.
 **[[Melee hit mechanics]]**: How big a problem they are and how to avoid them.
 **[[Hit cap vs attack speed]]**: Are they the same? What are the differences?
 
