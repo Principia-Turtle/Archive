@@ -11,7 +11,7 @@
 General consensus is, that first stat you should have sorted is hit cap. But author didn't suceed finding actual math supporting this. 
 Theoretically you could come to a situation, where you choose between 1% more hit, or 2% more attack speed. 
 
-##Average damage
+## Average damage
 
 Both stats have the same effect on your damage output,
 they increase / decrease it by a fixed percent value. The formula for their relation should look like this:
