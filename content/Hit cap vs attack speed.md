@@ -69,4 +69,4 @@ $$
 Tall and narrow curve means the build is consistent, wide and short means it is volatile.
 
 So there we have two approaches to the problem, one is from average algebraic standpoint, other is from stochastic. The graphs show beautifuly safe approach (hit) vs. risky one (speed). 
-Both will produce the same average damage output, but attack speed will help you set new records. If you get an option 1% attack speed vs. 1% hit? I would personally go for the attack speed.
+Both will produce almost the same average damage output (hit wins), but attack speed will help you set new records. If you get an option to choose between 1% attack speed vs. 1% hit? I would personally go for the attack speed.
