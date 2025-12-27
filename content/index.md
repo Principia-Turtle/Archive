@@ -16,7 +16,7 @@ We believe knowledge should be always free to access. But a lot of our time we h
 ### Foundations
 **[[Mechanics of Random Number Based Game]]**: How does random number based game work.
 
-**[[Melee Misses and Glancing Blows]]**: How big a problem they are and how to avoid them.
+**[[Melee hit mechanics]]**: How big a problem they are and how to avoid them.
 
 
 ### Classes
