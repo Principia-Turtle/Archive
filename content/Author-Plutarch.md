@@ -1,10 +1,10 @@
 ---
-title: Plutarch
+title: Baldessarini
 tags:
   - no-graph
 ---
 
-Ambershire, Horde
+Tel'Abim, Alliance
 
 I have always enjoyed quite many aspects of the game, like discovering secret locations (got banned to making it to GM Island), roleplaying, the community, raiding, but mostly theorycrafting. 
 
