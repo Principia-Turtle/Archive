@@ -1,6 +1,10 @@
 ### Authors:
 
-[[Author-Baldessarini]], Magey
+Magey
+
+### Peer review done by:
+
+[[Author-Baldessarini]]
 
 ## Archive link connections
 
