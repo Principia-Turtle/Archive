@@ -15,7 +15,9 @@ We believe knowledge should be always free to access. But a lot of our time we h
 
 ### Foundations
 **[[Mechanics of Random Number Based Game]]**: How does combat in a random number based game work.
+
 **[[Melee hit mechanics]]**: How big a problem they are and how to avoid them.
+
 **[[Hit cap vs attack speed]]**: Are they the same? What are the differences?
 
 
