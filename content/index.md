@@ -5,7 +5,7 @@ tags:
 ---
 
 Principia is a theorycrafting community of Turtle WoW.
->So far it is a community of one person ;D
+>So far it is a community of one person ;)
 
 To navigate the archive, expand the graph view. Here we try to share actual knowledge based on tested facts and mathematics, which everyone can try themselves. Simply saying something is meta and not showing data is not theorycrafting, it is a religion one follows blindly. Same applies to running an online calculator and not knowing how it works in the background.
 
@@ -18,7 +18,7 @@ We believe knowledge should be always free to access. But a lot of our time we h
 
 **[[Melee hit mechanics]]**: How melee hits work?
 
-**[[Hit cap vs attack speed]]**: Are they the same? What are the differences? Can we substitute attack speed for hit?
+**[[Hit cap vs attack speed]]**: Can we substitute attack speed for hit?
 
 
 
