@@ -4,7 +4,7 @@
 
 ## Archive link connections
 
-[[Mechanics of Random Number Based Game.md]], [[Hit cap vs. attack speed.md]]
+[[Mechanics of Random Number Based Game.md]]
 
 ## Introduction
 
