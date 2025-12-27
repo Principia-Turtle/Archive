@@ -8,7 +8,7 @@ Ambershire, Horde
 
 I have always enjoyed quite many aspects of the game, like discovering secret locations (got banned to making it to GM Island), roleplaying, the community, raiding, but mostly theorycrafting. 
 
-At the moment of writing this I am a lvl 40 hunter. I see the current meta for hunter is survival, or hybrid AP, but I couldn't find any data to back this up. And since I enjoy diving deep and plan to do my own math, I decided to found this archive.
+At the moment of writing this I am still leveling a hunter. I see the current meta for hunter is survival, or hybrid AP, but I couldn't find any data to back this up. And since I enjoy diving deep and plan to do my own math, I decided to found this archive.
 
 I find the boasting funny theese days, but maybe it will add a little weight to what I preach.
 
