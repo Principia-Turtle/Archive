@@ -6,7 +6,7 @@
 
 none
 
-## Archive link connections
+### Related nodes:
 
 [[Mechanics of Random Number Based Game.md]]
 
