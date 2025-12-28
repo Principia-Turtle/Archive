@@ -8,7 +8,7 @@ none
 
 ## Introduction
 
-This node is about melee and ranged weapons and wands. We will look behind the math of damage from weapons again by both average and stochastic lens.
+This node is about melee and ranged weapons and wands. We will look behind the math of damage from weapons.
 
 ## Formula
 
