@@ -33,13 +33,13 @@ Empirical work from magey corroborates a formula originally proposed by Beaza du
 If the target is a mob and the difference between its defense rating and the attacker’s weapon skill is 11 or more:
 
 $$
-P(Miss) = 5 + ((T(lvl) x 5) - Atk(skill) x 0.2
+P(Miss) = 5 + ((T(lvl) * 5) - Atk(skill) * 0.2
 $$
 
 If the target is a mob and the difference between its defense rating and the attacker’s weapon skill is 10 or less:
 
 $$
-P(Miss) = 5 + ((T(lvl) x 5) - Atk(skill) x 0.1
+P(Miss) = 5 + ((T(lvl) * 5) - Atk(skill) * 0.1
 $$
 
 Where  T(lvl) is the target’s level, and Atk(skill) is the attacker’s weapon skill rating. While simple, this formula carries immense significance 
@@ -50,7 +50,7 @@ It is important to note, however, that this is the behavior exhibited by wieldin
 If dual wielding, the probability of missing an attack is calculated as:
 
 $$
-P(DW_{miss}) = P(Miss) x 0.8 + 0.2
+P(DW_{miss}) = P(Miss) * 0.8 + 0.2
 $$
 
 As a disclaimer, magey notes that further testing is still required to assert the correctness of this formula.
@@ -62,7 +62,7 @@ and are restricted to white attacks. In accordance with Beaza, magey et al.
 have determined the glancing blow probability to be as follows:
 
 $$
-P(glancing) = 0.1 + (T(lvl) x 5 - min(Atk(lvl) x 5, Atk(skill)) x 0.02
+P(glancing) = 0.1 + (T(lvl) * 5 - min(Atk(lvl) * 5, Atk(skill)) * 0.02
 $$
 
 Where Atk(lvl) is characters level and Atk(skill) is characters active weapon skill
