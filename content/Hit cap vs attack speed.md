@@ -21,13 +21,13 @@ Both stats have almost the same effect on your average damage output,
 they increase / decrease it by a fixed percent value. The formula for their relation should look like this:
 
 $$
-DMG_{change} = (1 + ATK_{speed}) x (1 - HIT_{miss})
+DMG_{change} = (1 + ATK_{speed}) * (1 - HIT_{miss})
 $$
 
 Where $HIT_{miss}$ is your missing hit to a hitcap and both values are of form 1% = 0.01. Then their weight ratio would be the result of this relation when we substitute same values:
 
 $$
-DMG_{change} = (1 + 0.01) x (1 - 0.01) = 0.999..
+DMG_{change} = (1 + 0.01) * (1 - 0.01) = 0.999..
 $$
 
 This means the effect of their effect on our damage output is almost identical hit:attack speed = 1:0.999..
