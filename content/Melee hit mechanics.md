@@ -6,7 +6,7 @@ Magey
 
 Baldessarini
 
-## Archive link connections
+### Related nodes:
 
 [[Mechanics of Random Number Based Game.md]], [[Hit cap vs. attack speed.md]]
 
