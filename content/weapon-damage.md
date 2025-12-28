@@ -6,6 +6,10 @@
 
 none
 
+### Related nodes:
+
+[[Mechanics of Random Number Based Game.md]]
+
 ## Introduction
 
 This node is about melee and ranged weapons and wands. We will look behind the math of damage from weapons.
