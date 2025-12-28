@@ -20,6 +20,9 @@ We believe knowledge should be always free to access. But a lot of our time we h
 
 **[[Hit cap vs attack speed]]**: Can we substitute hit for attack speed?
 
+**[[weapon-damage]]**: Work in progress
+
+
 
 
 ### Classes
