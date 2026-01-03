@@ -79,7 +79,7 @@ If you fight the boss 1,000 times with 0.3 chance, your total score will be exac
 
 ## So how to approach it?
 
-Both approaches via volatility and average are legitimate based on the situation. Maybe your class does majority of its damage in execution phase, then you might aim to reduce volatility. Or maybe you have very short casts or you prepare for a long encounter, then you might focus on the average.
+Both approaches via volatility and average are legitimate based on the situation. Maybe your class does majority of its damage in execution phase, then you might aim to reduce volatility. Or maybe you have very short casts or you prepare for a long encounter, then you might focus on the average. Maybe you want to set new records, then luck with volatility might be your friend.
 
 ## Sources
 
