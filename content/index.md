@@ -18,9 +18,8 @@ We believe knowledge should be always free to access. But a lot of our time we h
 
 **[[Melee hit mechanics]]**: How melee hits work?
 
-**[[Hit cap vs attack speed]]**: Can we substitute hit for attack speed?
+**[[Hit cap vs haste]]**: Can we substitute hit for attack speed?
 
-**[[weapon-damage]]**: Work in progress
 
 
 
