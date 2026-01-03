@@ -13,7 +13,7 @@ none
 ## Introduction
 
 General consensus is, that first stat you should have sorted is hit cap. But author didn't suceed finding actual math supporting this. 
-Theoretically you could come to a situation, where you choose between 1% more hit, or 1% more attack speed. 
+Theoretically you could come to a situation, where you choose between 1% more hit, or 1% more attack speed. This node is both for casters and physical dps.
 
 ## Average damage
 
