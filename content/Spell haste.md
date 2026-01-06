@@ -23,6 +23,8 @@ Spell haste increses cast time of spells, this node is concerned with it's effec
 The longer the cast time, the higher effect it has in terms of the time saved, 
 but no matter how long is the cast, spell haste just gives us an option to fit more of spells into the same time window. 
 So it doesn't matter if your cast is instant (global cooldown), or 5 seconds, you will still fit N% more of the casts in the given time window.
+>But longer cast times could be beneficial if your latency is high
+>
 Cast time is calculated after the reduction from possible talents. 
 
 $$
@@ -31,7 +33,7 @@ HastePercent
 $$
 
 $$
-New Tast Time
+New Cast Time
 = \frac{Cast Time}{1+(\frac{HastePercent}{100})}
 $$
 
