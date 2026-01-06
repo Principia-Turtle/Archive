@@ -8,7 +8,7 @@ none
 
 ### Related nodes:
 
-[[Mechanics of Random Number Based Game.md]]
+[[Mechanics of Random Number Based Game.md]], [[Spell haste.md]]
 
 ## Introduction
 
