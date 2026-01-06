@@ -47,10 +47,10 @@ export const defaultContentPageLayout: PageLayout = {
         zoom: true,
         depth: 2, // How many "hops" away to show (1 is default, 2 is deeper)
         scale: 1.2, // Default zoom level
-        repelForce: 0.5, // How much nodes push each other away
+        repelForce: 0.75, // How much nodes push each other away
         centerForce: 0.3,
         linkDistance: 30,
-        fontSize: 0.6,
+        fontSize: 0.5,
         opacityScale: 1,
         removeTags: [], // Hide specific tags from the graph
         showTags: true,
@@ -61,10 +61,10 @@ export const defaultContentPageLayout: PageLayout = {
         zoom: true,
         depth: -1, // -1 means "Show Everything"
         scale: 0.9,
-        repelForce: 0.5,
+        repelForce: 0.75,
         centerForce: 0.3,
         linkDistance: 30,
-        fontSize: 0.6,
+        fontSize: 0.5,
         opacityScale: 1,
         removeTags: [], // Hide specific tags from the graph
         showTags: true,
