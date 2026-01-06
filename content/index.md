@@ -21,6 +21,8 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 **[[Hit cap vs haste]]**: Can we substitute hit for attack speed?
 
+**[[Spell-haste]]**: How it works
+
 
 ### Classes
 
