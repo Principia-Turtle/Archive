@@ -34,12 +34,14 @@ People are naturally competetive and it will always be the case for theese class
 
 Here are supportive damage classes (shadow priests, enhancement and elemental shamans, balance druids, arms warriors, survival hunters, retribution paladins)
 
-Their goal is not necesarrily to be top dps, but to do the assigned job to help purely competetive classes. If a shaman struggles to keep totem rotation up, he fails his job. If he looses in dps to the other shaman, it just should motivate him to ask how he managed. Maybe it is just an issue of latency and not the player's skill.
+Their goal is not necesarrily to be top dps, but to do the assigned job to help purely competetive classes. If a shaman struggles to keep totem rotation up, he fails his job. If he looses in dps to the other shaman, it just should motivate him to ask how he managed. Maybe it is just an issue of latency and not the player's skill. Also remember it is not only the damage the class does alone, but also the effect of buffing the other classes compensating for his lower dps output, this effect should be calculated and added to meters to make it fair.
 
 ## Purely competetive roles
 
 Rest of the damage classes belong here (Mages, Warlocks, BM Hunters, Fury Warriors, Rogues)
 
-Except few encounters (like a mage or warlock tank, then they are not in this role) their role is to beat each other in the damage meters and not wipe the raid while doing it. (Stop DPS means stop DPS, not top DPS)
+Except few encounters (like a mage or warlock tank, then they are not in this role) their role is to beat each other in the damage meters and not wipe the raid while doing it. (Stop DPS means stop DPS, not top DPS). 
+
+The most unfortunate in this group are PvE rogues, who have lowest dps and no raid utility. But I think being a fun person and keeping the raid spirits up, or doing raidleading is much more essential than any other in-game buff, hence such a rogue with social / leadership skills could be considered to be in the mixed role and have an essential spot in raids.
 
 
