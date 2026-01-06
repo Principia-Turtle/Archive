@@ -94,5 +94,5 @@ This is also why a weapon skill of at least 305 and at most 308 is recommended.
 
 # Continue reading
 
-But what if choose to get more attack speed instead of hit, have more misses, but on the other hand have more hits? Read: [[Hit cap vs. attack speed.md]]
+But what if choose to get more attack speed instead of hit, have more misses, but on the other hand have more hits? Read: [[Hit cap vs haste.md]]
 
