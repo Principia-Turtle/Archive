@@ -24,6 +24,6 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 ### Classes
 
-**[[Competetive vs. Copperative Playstyles]]**: Introduction to raid roles
+**[[Competetive vs. Cooperative Playstyles]]**: Introduction to raid roles
 
 
