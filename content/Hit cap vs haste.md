@@ -68,8 +68,11 @@ $$
 
 Tall and narrow curve means the build is consistent, wide and short means it is volatile.
 
-So there we have two approaches to the problem, one is from average algebraic standpoint, other is from stochastic. The graphs show beautifuly safe approach (hit) vs. risky one (speed). 
-Both will produce almost the same average damage output (hit wins), but attack speed will help you set new records. If you get an option to choose between 1% attack speed vs. 1% hit? I would personally go for the attack speed.
+## Final words and personal opinion
+
+The graphs show beautifuly safe approach (hit) vs. risky one (speed). 
+Both will produce almost the same average damage output (hit wins), but attack speed will help you set new records. 
+If you get an option to choose between 1% attack speed vs. 1% hit? I would personally go for the attack speed. For instance mages need Skull of Guldan mainly for reaching the hitcap, the haste bonus doesn't even give them an extra cast in full BiS, so it is essentially just the passive hit and SP stats which count - hence in my opinion it is not the best option.
 
 ## Python
 
