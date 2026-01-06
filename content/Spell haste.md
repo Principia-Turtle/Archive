@@ -32,11 +32,10 @@ Nothing can be casted faster than 1 second, so if you combine haste from items, 
 ![media/graph-melee-miss-chance.png](../media/impact-of-haste-rating-on-cast-time.png)
 
 
-## Diminishing returns don't exist with haste
+## No diminishing returns
 
 As you can see in the previous graph, the effect of haste on time is not linear, it is slightly curved. That is because 10% from a 2.5 s cast = 0.25 s, and from 1.5 s cast = 0.15. 
-This doesn't mean there are diminishing returns on your number of casts, healing, damage or anything, because the vertical axis is time, not casts.
-The effect on casts performed in a given time window is linear:
+This doesn't mean there are diminishing returns on your number of casts, healing, damage or anything, there is no soft cap, because the vertical axis is time, not casts. There is only the 1s hard cap. The effect on casts performed in a given time window is linear:
 
 ![media/graph-melee-miss-chance.png](../media/impact-of-haste-rating-on-cast-time-2.png)
 
