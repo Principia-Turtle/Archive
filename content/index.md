@@ -12,7 +12,7 @@ Here we try to share actual knowledge based on tested facts and mathematics, whi
 
 We believe knowledge should be always free to access. But a lot of our time we have dedicated to theorycrafting instead of gold farming. We will be happy if you send an in-game-mail tip to the authors of the nodes you found useful. It is our way of farming.
 
-Also, if you don't agree with something, or you would like to add your node, contact me in the game: [[Authors-Calais]]
+Also, if you don't agree with something, or you would like to add your node, contact me in the game: [[Author-Calais]]
 
 ### Foundations
 **[[Mechanics of Random Number Based Game]]**: How does combat in a random number based game work?
