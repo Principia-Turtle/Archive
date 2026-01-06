@@ -21,12 +21,9 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 **[[Hit cap vs haste]]**: Can we substitute hit for attack speed?
 
-**[[Competetive vs. Copperative Playstyles]]**: Introduction to raid roles
-
-
-
-
 
 ### Classes
+
+**[[Competetive vs. Copperative Playstyles]]**: Introduction to raid roles
 
 
