@@ -25,11 +25,23 @@ but no matter how long is the cast, spell haste just gives us an option to fit m
 So it doesn't matter if your cast is instant (global cooldown), or 5 seconds, you will still fit N% more of the casts in the given time window.
 Cast time is calculated after the reduction from possible talents. 
 
+$$
+HastePercent
+= \frac{Haste Rating}{15.77}
+$$
+
+$$
+New Tast Time
+= \frac{Cast Time}{1+(\frac{HastePercent}{100})}
+$$
+
 ## Hard cap
 
 Nothing can be casted faster than 1 second, so if you combine haste from items, bloodlust and other effects, you should not go below this treshold.
 
 ![media/graph-melee-miss-chance.png](../media/impact-of-haste-rating-on-cast-time.png)
+
+The hard cap for 1.5 s cast / GCD is 50%, this is very much reachable under the effect of bloodlust (30%). For 2s casts = 100%, 2.5s = 150%, etc.
 
 
 ## No diminishing returns
