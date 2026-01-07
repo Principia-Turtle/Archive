@@ -51,6 +51,8 @@ $$
 Hit : Haste \times C_{haste} : Crit / Crit_{bonus} : SP
 $$
 
+## Converting to numerical weight ratios:
+
 $$
 12.6 : 15.77 \times (1 + 0.01) : 22.1 / (1 + 0.4) : 33
 $$
@@ -68,6 +70,8 @@ Here high number means low effectivity, so as a last step I do number inversion,
 $$
 Hit : Haste : Crit : SP = 1 : 0.79 : 0.8 : 0.38
 $$
+
+The Hit to Haste relation will be constant for all classes, Crit weight will only depend on your spells and talents and SP rating needs to be calculated for each itemisation individually.
 
 
 
