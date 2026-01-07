@@ -46,6 +46,7 @@ Hit : Haste \times C_{haste} : Crit / Crit_{bonus}
 $$
 
 >the smaller number, the better
+>
 
 ## Adding spell power
 
@@ -75,9 +76,15 @@ $$
 Hit : Haste : Crit : SP = 1 : 0.79 : 0.8 : 0.38
 $$
 
->This are stat weights for a full BiS mage
+## Adding crit from intellect
 
-The Hit to Haste relation will be constant for all classes, Crit weight will only depend on your spells and talents and SP rating needs to be calculated for each spell and itemisation individually.
+Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating.
+
+## Final weights
+
+Hit : Haste : Crit : Int : SP = 1 : 0.79 : 0.8 : 0.22 : 0.38 
+
+The Hit to Haste to Intellect relation will be constant for all classes, Crit weight will only depend on your spells and talents and SP rating needs to be calculated for each spell and itemisation individually.
 
 
 
