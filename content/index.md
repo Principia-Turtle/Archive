@@ -27,8 +27,7 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 **[[Spell and healing power]]**: Conversion to percentual basis
 
-
-
+**[[Caster stat weights]]**: For gearing priorities
 
 
 ### Classes
