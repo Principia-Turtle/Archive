@@ -15,6 +15,8 @@ We believe knowledge should be always free to access. But a lot of our time we h
 Also, if you don't agree with something, or you would like to add your node, contact me in the game: [[Author-Calais]]
 
 ### Foundations
+>General theory behind game mechanics, sometimes with examples.
+
 **[[Mechanics of Random Number Based Game]]**: How does combat in a random number based game work?
 
 **[[Melee hit mechanics]]**: How melee hits work?
