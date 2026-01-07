@@ -84,6 +84,8 @@ Every 80 points of intellect give us 1% spell crit, we can directly relate it to
 
 Hit : Haste : Crit : Int : SP = 1 : 0.79 : 0.8 : 0.22 : 0.38 
 
+>For a full BiS mage example
+
 The Hit to Haste to Intellect relation will be constant for all classes, Crit weight will only depend on your spells and talents and SP rating needs to be calculated for each spell and itemisation individually.
 
 
