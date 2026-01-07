@@ -54,32 +54,32 @@ $$
 >This is 8.6% chance only to get the exact amount of successful trials.
 
 
-## Short encounters
+## Volatility
 
-As raiders we are rather interested in the chance of getting exactly 30, or more, which is then: 53.77% 
+As raiders we are rather interested in the chance of getting at least, lets say, 30 positive trials in 100, or more, which is then: 53.77% 
 
-We can plot how the effect of different p (on hit chance) behaves when we consider this logic:
+We can plot how the effect of different trial chance behaves when we consider this logic:
 
 ![media/graph-bernoulli.png](../media/graph-bernoulli.png)
 
-This plot doesn't show how many crits we will get, but the chance of scoring more, than is our crit chance. The sweet spot seems to be somewhere around 40% for crit chance, where I can be almost sure we get more crits, than is the actual rating. Also having less than 20% will yield diminishing returns, where we are destined to score less, than is our rating.
+This plot doesn't show how many positive trials we will get, but the chance of scoring more, than is our chance. But this chance will always hover around the 50% no matter our sucessful trial rating.
 
-## Long encounters
-The graph will differ when we consider a smaller or larger number of trials. The more trials we have (longer encounter), the more the function will look like a step on staircase - meaning the more likely we will get our actual successful trial chance rating. 
+Also the more trials there are, the closer we will move to the average, for 100 it is around 54%, for 1000 we are already at 51.2%
 
-![media/graph-bernoulli-2.png](../media/graph-bernoulli-2.png)
+## Short vs. Long Encounters
 
-From this we can conclude, that on-hit RNG mechanics, like crit, hit, etc. are more prone to deviations if we have a long cast time, or a slow weapon.
+This means on short encounters our performance can vary significantly, if you are in a raid with high DPS performance, you are more likely to set new records, because volatility on shorter time windows can help, this is what I noticed on my mage on Brutallus when we were all BiS, I could do 3.4k+ DPS. But also you are more likely to underperform. If the encounter is long, then the numbers will tend to lean toward the average values. Your performance will be consistent, but getting lucky RNG to set new rocords will be much more unlikely.
 
-## Average vs. Volatility
+## Effect of sucessful trial rating on volatility
 
-If you fight the boss 1,000 times with 0.3 chance, your total score will be exactly 30% of total hits. The math balances out perfectly. But in one encounter you don't get the average, you get a random unreliable sample. As raiders we don't care that much what was our DPS in the whole progression evening, we care if we did our job correctly on a single encounter, which can be a guild first-kill. What I mean by volatility is then "How likely I am to fail on a single encounter". Volatility approaches average with a large number of trials and needs to be adjusted for each class, specialisation and raider based on their attack speed. Here I have increased p = 36% and I check for k = 30% on a 100-hit fight. So I treat crits (or any trial) as 20% less effective, to get some sort of certainty:
+Here I set a shorter fight - 50 casts, as you can see the closer we move to 50% sucessful trial rating, the more unlikely the given outcome is.
 
-![media/graph-bernoulli-3.png](../media/graph-bernoulli-3.png)
+![media/graph-bernoulli.png](../media/volatility-and-average.png)
 
-## So how to approach it?
+## How to approach it
 
-Both approaches via volatility and average are legitimate based on the situation. Maybe your class does majority of its damage in execution phase, then you might aim to reduce volatility. Or maybe you have very short casts or you prepare for a long encounter, then you might focus on the average. Maybe you want to set new records, then luck with volatility might be your friend.
+There is no correct general way, you can tend to work with averages for consistency, or trying your luck with volatility. Each class or situation can benefit or struggle from something else. 
+
 
 ## Sources
 
@@ -89,4 +89,4 @@ https://en.wikipedia.org/wiki/Binomial_distribution
 
 You can run the script used to generate the plots in google colab
 
-[Download the Python Script](hit_mechanics_of_random_number_based_game.py)
+[Download the Python Script](hit_mechanics_of_random_number_based_game_2.py.py)
