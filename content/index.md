@@ -42,6 +42,8 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 Partial resists - No luck finding a reliable source on partial resists or how they work. Seems like level based spell resistance is in place. This would make the caster/healer foundations complete. I am afraid in-game testing has to be done.
 
+Intellect and spirit - intellect increases crit chance and regeneration from spirit I think
+
 Melee mechanics - I have no experience with playing melee
 
 Tank mechanics - armor, avoidance, resistances - no experience playing tanks again.
