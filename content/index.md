@@ -40,7 +40,7 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 ### Needed nodes
 
-Partial resists - No luck finding a reliable source on partial resists or how they work. Seems like level based spell resistance is in place. This would make the caster/healer foundations complete. I am afraid in-game testing has to be done.
+Partial resists - No luck finding a reliable source on partial resists or how they work. Seems like level based spell resistance is in place. This would make the caster/healer foundations complete. I am afraid in-game testing has to be done. Anyways it's lack doesn't change anything foundational, because it will be a flat reduction on non-binary spells.
 
 Intellect and spirit - intellect increases crit chance and regeneration from spirit I think
 
