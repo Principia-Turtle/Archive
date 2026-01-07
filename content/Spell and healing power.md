@@ -65,11 +65,53 @@ Result:
 
 $$\frac{2530}{5164} \approx \mathbf{0.49\%}$$
 
-Hence 49% comes from spell power and it corresponds to 1624 rating, 1/(1-0.49) = 196% damage increase from spell power
+So we established that roughly 49% of the total damage came from Spell Power.
 
-1624/1.96 = 8.28 $\approx$ 1% DMG increase.
+Total Damage: $5,164$
 
->This makes spell power the most powerful stat for the mage class.
+Damage from Spell Power: $5,164 \times 0.49 = \mathbf{2,530}$
+
+Spell Power: $1,624$
+
+The Effective Coefficient:
+
+$$
+\frac{\text{Damage from SP}}{\text{Total SP}} = \frac{2530}{1624} \approx \mathbf{1.558}
+$$
+
+If you want to know how much damage 1% increase is worth now:
+
+Current Damage: 51641% 
+
+Increase: $51.64$ damage
+
+Coefficient: 1.558 (from previous step)
+
+SP Needed: 
+
+$$
+51.64 / 1.558 \approx \mathbf{33 \text{ SP}}
+$$
+
+That is a lot.
+
+## Diminishing returns
+
+The more spell power we have, the more our hits strike, this effect is linear.
+
+But most importantly the less percentual effect it has on our casts, as we can see in this graph:
+
+![media/graph-bernoulli.png](../media/spell-power-diminishing-returns.png)
+
+The percentual effect is much more important to us if we want to relate the stat to the others.
+
+## Python code
+
+You can run this online in google colab
+
+[Download the Python Script](spell-and-healing-power.py)
+
+
 
 
 
