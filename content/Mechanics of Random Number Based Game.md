@@ -72,7 +72,7 @@ This means on short encounters our performance can vary significantly, if you ar
 
 ## Effect of sucessful trial rating on volatility
 
-Here I set a shorter fight - 50 casts, as you can see the closer we move to 50% sucessful trial rating, the more unlikely the given outcome is.
+Here I set a shorter fight - 50 casts, as you can see the closer we move to 50% sucessful trial rating, the more we reduce the volatility.
 
 ![media/graph-bernoulli.png](../media/volatility-and-average.png)
 
