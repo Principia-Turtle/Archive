@@ -61,9 +61,9 @@ export const defaultContentPageLayout: PageLayout = {
         zoom: true,
         depth: -1, // -1 means "Show Everything"
         scale: 0.9,
-        repelForce: 0.75,
-        centerForce: 0.3,
-        linkDistance: 30,
+        repelForce: 2.5,
+        centerForce: 0.2,
+        linkDistance: 20,
         fontSize: 0.5,
         opacityScale: 1,
         removeTags: [], // Hide specific tags from the graph
