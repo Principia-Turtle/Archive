@@ -16,6 +16,10 @@ Earlier (see related nodes) we established all stats as percentual damage increa
 
 We do not take in account the volatility, but only the average.
 
+## Single target vs. AoE
+
+The one thing area of effect spells change, is the number of trials / casts. Another thing is a AoE damage cap, this is different for each spell (around 7-10k) [[source]](https://www.wowhead.com/forums/topic/how-do-you-determine-who-is-king-of-aoe-30962), this damage cap might not work on some private servers.
+
 ## Relating haste to hit
 
 12.6 spell hit rating increases your chance to hit by 1%.
