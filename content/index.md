@@ -27,6 +27,8 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 **[[Spell and healing power]]**: Conversion to percentual basis
 
+**[[Spell crit]]**: Is very similar to haste and hit
+
 **[[Caster stat weights]]**: For gearing priorities
 
 
