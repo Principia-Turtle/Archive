@@ -23,6 +23,11 @@ Also, if you don't agree with something, or you would like to add your node, con
 
 **[[Spell haste]]**: How it works
 
+**[[Spell and healing power]]**: Conversion to percentual basis
+
+
+
+
 
 ### Classes
 
