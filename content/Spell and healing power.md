@@ -87,7 +87,7 @@ Increase: $51.64$ damage
 
 Coefficient: 1.558 (from previous step)
 
-SP Needed: 
+SP Needed for 1% increase: 
 
 $$
 51.64 / 1.558 \approx \mathbf{33 \text{ SP}}
