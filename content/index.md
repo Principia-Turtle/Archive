@@ -6,7 +6,7 @@ tags:
 
 Principia is a game theorycrafting archive of WoW - TBC
 
-To navigate the archive, expand the graph view. You can view this way easily which nodes are related, the most important nodes will have the highest number of connections to them.
+To navigate the archive, expand the graph view. You can view this way easily which nodes are related, the most important nodes will have the highest number of connections to them. You can also move the nodes around for easier orientation.
 
 We do not state, that something is meta, we simply follow the math to tell us the answers. Following the path leads us usually to the same mainstream conclusion/meta, but sometimes not, or give us a new perspective.
 
