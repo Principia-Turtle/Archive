@@ -71,7 +71,7 @@ $$
 Hit : Haste : Crit : SP = 1 : 0.79 : 0.8 : 0.38
 $$
 
-The Hit to Haste relation will be constant for all classes, Crit weight will only depend on your spells and talents and SP rating needs to be calculated for each itemisation individually.
+The Hit to Haste relation will be constant for all classes, Crit weight will only depend on your spells and talents and SP rating needs to be calculated for each spell and itemisation individually.
 
 
 
