@@ -69,7 +69,7 @@ Hence 49% comes from spell power and it corresponds to 1624 rating, 1/(1-0.49) =
 
 1624/1.96 = 8.28 $\approx$ 1% DMG increase.
 
-This makes spell power the most powerful stat for the mage class.
+>This makes spell power the most powerful stat for the mage class.
 
 
 
