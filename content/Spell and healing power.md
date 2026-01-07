@@ -81,9 +81,9 @@ $$
 
 If you want to know how much damage 1% increase is worth now:
 
-Current Damage: 51641% 
+Current Damage: 51641
 
-Increase: $51.64$ damage
+Increase of 1%: $51.64$ damage
 
 Coefficient: 1.558 (from previous step)
 
@@ -93,7 +93,7 @@ $$
 51.64 / 1.558 \approx \mathbf{33 \text{ SP}}
 $$
 
-That is a lot.
+>That is a lot. This makes spell power the worst stat for a late game mage.
 
 ## Diminishing returns
 
