@@ -18,6 +18,14 @@ This node is about melee and ranged weapons and wands. We will look behind the m
 
 The formula presented by [[allakhazam]](https://wow.allakhazam.com/wiki/The_Math_of_Combat_%28WoW%29) proposes this relation:
 
+
+==1. A number in the weapon's damage range is selected.
+2. One-fourteenth of the character's attack power, multiplied by the weapon's delay, is added to this amount.
+3. Other possible bonus effects are also factored in.
+4. The damage is reduced by some percentage, based on the target's armor.
+
+This can be rewritten as:
+
 $$
 H = (W_{dmg} + W_{bonus} + AP*W_{speed}/14)*B_{mult}*R_{mult} + B_{add} - R_{sub}
 $$
