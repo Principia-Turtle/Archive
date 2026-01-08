@@ -19,10 +19,10 @@ This node is about melee and ranged weapons and wands. We will look behind the m
 The formula presented by [[allakhazam]](https://wow.allakhazam.com/wiki/The_Math_of_Combat_%28WoW%29) proposes this relation:
 
 
-==1. A number in the weapon's damage range is selected.
+<mark>1. A number in the weapon's damage range is selected.
 2. One-fourteenth of the character's attack power, multiplied by the weapon's delay, is added to this amount.
 3. Other possible bonus effects are also factored in.
-4. The damage is reduced by some percentage, based on the target's armor.
+4. The damage is reduced by some percentage, based on the target's armor.</mark>
 
 This can be rewritten as:
 
@@ -33,4 +33,19 @@ $$
 Where:
 
 $$H$$ = Swing weapon damage, $$W_{dmg}$$ = a number selected from weapons damage range, $$W_{bonus}$$ = weapon damage enchantments, $$AP$$ = attack power, $$W_{speed}$$ = weapon speed, $$B_{mult}$$ = damage percent bonuses, $$R_{mult}$$ = damage percent reduction,  $$B_{add}$$ = added bonuses, $$R_{sub}$$ = substracted reduction
+
+For our puropse we are not interested in $$B_{mult}$$, $$R_{mult}$$, $$B_{add}$$, $$R_{sub}$$ and instead of a weapons range $$W_{dmg}$$ we consider the average $$W_{a-dmg}$$  so this leaves us with: 
+
+$$
+H = (W_{a-dmg} + W_{bonus} + AP*W_{speed}/14)
+$$
+First lesson to learn when looking at the formula, is that attack power has biggest effect on slow weapons. Let's consider Thori'dal with $$W_{a-dmg}$$ = 439.5, W_{speed} = 2.70, W_{bonus} we set to 0, because we use 30 hit Biznicks 247x128 Accurascope. Vertical axis is hit, horizontal is AP = attack power:
+
+![media/graph-bernoulli.png](../media/thoridal-ap-scaling.png)
+
+The effect of AP on weapon damage is linear
+
+
+
+
 
