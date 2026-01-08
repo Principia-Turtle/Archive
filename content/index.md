@@ -31,6 +31,8 @@ Want to join the project? So far it is only me. Contact me in the game: [[Author
 
 **[[Caster stat weights]]**: For gearing priorities
 
+**[[Weapon damage]]**
+
 
 ### Classes
 
