@@ -8,11 +8,11 @@ none
 
 ### Related nodes:
 
-[[Mechanics of Random Number Based Game.md]]
+none
 
 ## Introduction
 
-This node is about melee and ranged weapons and wands. We will look behind the math of damage from weapons.
+This node is about melee and ranged weapons. 
 
 ## Formula
 
@@ -42,13 +42,17 @@ $$
 
 ## Effect of attack power on weapon damage
 
-First lesson to learn when looking at the formula, is that attack power has biggest effect on slow weapons. Let's consider Thori'dal with $$W_{a-dmg}$$ = 439.5, W_{speed} = 2.70, W_{bonus} we set to 0. Vertical axis is hit, horizontal is AP:
+First we notice when looking at the formula, is that attack power has biggest effect on slow weapons. Let's consider Thori'dal with $$W_{a-dmg}$$ = 439.5, W_{speed} = 2.70, W_{bonus} we set to 0. Vertical axis is hit, horizontal is AP:
 
 ![media/graph-bernoulli.png](../media/thoridal-ap-scaling.png)
 
 The effect of AP on weapon damage is linear.
 
-Note if we would set the weapon speed to 1/2, then the effect from AP would be half of it, but it would strike 2x more often. So it doesn't matter what weapon you carry, you are still getting the same <b>white attack</b> DPS benefit from your attack power.
+But note if we would set the weapon speed to 1/2, then the effect from AP would be half of it, but it would strike 2x more often. So it doesn't matter what weapon you carry, you are still getting the same <b>white attack</b> DPS benefit from your attack power.
+
+## Effect of weapon damage on yellow attacks
+
+Weapon damage W_{dmg} is the basis for determining most yellow attacks damage - hence slower weapon will give higher benefit.
 
 
 
