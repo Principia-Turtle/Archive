@@ -12,7 +12,7 @@ none
 
 ## Introduction
 
-Earlier (see related nodes) we established all stats as percentual damage increase, the most complicated of them was spell power. To make the stat weights we consider 1% to damage via each stat, then convert it to the stat's rating and normalize it.
+Earlier (see related nodes) we established all stats as percentual damage increase, the most complicated of them was spell power due to the fact it works as a flat increase, rather than percentual. To make the stat weights we consider 1% to damage via each stat, then convert it to the stat's rating and normalize it. We will find, that all classes have the same hit:haste weight and each class has even constant crit and intellect weight, which leaves us with only varying spell power.
 
 We do not take in account the volatility, but only the average.
 
