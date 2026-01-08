@@ -8,13 +8,11 @@ Principia is a game theorycrafting archive of WoW - TBC
 
 To navigate the archive, expand the graph view. You can view this way easily which nodes are related, the most important nodes will have the highest number of connections to them. You can also move the nodes around for easier orientation. Or you can simply use the searchbar.
 
-We do not state, that something is meta, we simply follow the math to tell us the answers. Following the path leads us usually to the same mainstream conclusion/meta, but sometimes not, or give us a new perspective.
+We follow the math to tell us the answers. Following the path leads us usually to the same mainstream conclusion/meta, but sometimes not, or give us a new perspective.
 
 Also we do not say this is only way to play the game, maybe the class / spec combination is super fun for you, then go for it.
 
-We believe knowledge should be always free to access. But a lot of our time we have dedicated to theorycrafting instead of gold farming. We will be happy if you send an in-game-mail tip to the authors of the nodes you found useful. It is our way of farming.
-
-Also, if you don't agree with something, or you would like to add your node, contact me in the game: [[Author-Calais]]
+Want to join the project? So far it is only me. Contact me in the game: [[Author-Calais]]
 
 ### Foundations
 >General theory behind game mechanics, sometimes with examples.
