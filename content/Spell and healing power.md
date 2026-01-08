@@ -12,7 +12,7 @@ none
 
 ## Introduction
 
-Spell and healing power are the only caster stats which are not based on random numbers - they add a flat bonus effect to spells.
+Spell and healing power are the only caster stats which are not based on random numbers - they add a flat bonus effect to spells. This complicates things a little, because we always wonder how much of each stat increases our performance by 1%.
 >Hence they are not a subject of volatility.
 
 ## Formula
