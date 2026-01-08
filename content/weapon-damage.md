@@ -39,11 +39,16 @@ For our puropse we are not interested in $$B_{mult}$$, $$R_{mult}$$, $$B_{add}$$
 $$
 H = (W_{a-dmg} + W_{bonus} + AP*W_{speed}/14)
 $$
-First lesson to learn when looking at the formula, is that attack power has biggest effect on slow weapons. Let's consider Thori'dal with $$W_{a-dmg}$$ = 439.5, W_{speed} = 2.70, W_{bonus} we set to 0, because we use 30 hit Biznicks 247x128 Accurascope. Vertical axis is hit, horizontal is AP = attack power:
+
+## Effect of attack power on weapon damage
+
+First lesson to learn when looking at the formula, is that attack power has biggest effect on slow weapons. Let's consider Thori'dal with $$W_{a-dmg}$$ = 439.5, W_{speed} = 2.70, W_{bonus} we set to 0. Vertical axis is hit, horizontal is AP:
 
 ![media/graph-bernoulli.png](../media/thoridal-ap-scaling.png)
 
-The effect of AP on weapon damage is linear
+The effect of AP on weapon damage is linear.
+
+Note if we would set the weapon speed to 1/2, then the effect from AP would be half of it, but it would strike 2x more often. So it doesn't matter what weapon you carry, you are still getting the same <b>white attack</b> DPS benefit from your attack power.
 
 
 
