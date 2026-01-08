@@ -11,7 +11,7 @@ none
 none
 
 ## Introduction
-Mathematically we are dealing with a pseudo random number generator which determines number of successes in a sequence of N independent experiments, each asking a yes–no question: Will it hit or not? Will it crit or not? Etc. such a system is described by Binomial distribution.
+In wow game many things are determined by a pseudo random number generator which determines number of successes in a sequence of N independent trials, each asking a yes–no question: Will it hit or not? Will it crit or not? Etc. So we are dealing with probabilities, namely with binomial distribution - coin flips.
 
 >I assume the trials are independent of each other, meaning the game doesn't remember how many times I didn't suceed a trial to make it more likely, but rather just putting a chance of successful trial on each hit.
 
