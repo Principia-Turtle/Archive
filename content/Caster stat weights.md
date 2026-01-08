@@ -39,7 +39,7 @@ Where $C_{haste}$ is the constant. (If we get 98% effect, then it is 2%)
 
 ## Adding crit
 
-If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two casts, hence formula becomes:
+If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
 
 $$
 Hit : Haste \times C_{haste} : Crit / Crit_{bonus}
