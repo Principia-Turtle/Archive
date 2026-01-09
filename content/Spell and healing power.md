@@ -24,7 +24,7 @@ BonusDMG = SP \times C \times M \times N_{casts}
 $$
 
 $$
-\text{Effect \%} = \frac{Damage_{SP}}{N_{casts} \times AVG_{observed}} \times 100
+\text{Effect \%} = \frac{BonusDMG}{N_{casts} \times AVG_{observed}} \times 100
 $$
 
 Where:
