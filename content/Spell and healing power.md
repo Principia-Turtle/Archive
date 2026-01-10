@@ -51,7 +51,7 @@ This screenshot is when I was full BiS mage.
 
 The formula then becomes:
 
-Using the data (1624 SP, 100 casts, 5164 Avg) 
+Using the data (1624 SP, 100 casts, 4185 Avg hit) 
 
 ($C$): $1.15$ (Base 1.0 + Emp. Fireball 0.15)Calculate Multipliers 
 
@@ -65,15 +65,13 @@ $$1624 \times 1.15 \times 1.355 \approx \mathbf{2,530 \text{ damage per cast}}$$
 
 Result:
 
-$$\frac{2530}{5164} \approx \mathbf{0.49}$$
+$$\frac{2530}{4128} \approx \mathbf{0.61}$$
 
-So we established that roughly 49% of the total damage came from Spell Power.
+So we established that roughly 61% of the total damage came from Spell Power.
 
-Total Damage: $5,164$
+Total Damage: $4128$
 
-Damage from Spell Power: $5,164 \times 0.49 = \mathbf{2,530}$
-
-Spell Power: $1,624$
+Damage from Spell Power: $4128 \times 0.61 = \mathbf{2,530}$
 
 The Effective Coefficient:
 
@@ -83,19 +81,19 @@ $$
 
 If you want to know how much damage 1% increase is worth now:
 
-Current Damage: 51641
+Current Damage: 4128
 
-Increase of 1%: $51.64$ damage
+Increase of 1%: $41.28$ damage
 
-Coefficient: 1.558 (from previous step)
+Coefficient: 1.61 (from previous step)
 
 SP Needed for 1% increase: 
 
 $$
-51.64 / 1.558 \approx \mathbf{33 \text{ SP}}
+41.28 / 1.61 \approx \mathbf{26 \text{ SP}}
 $$
 
->That is a lot.
+>Approximation
 
 ## Formula from algebra
 
@@ -131,7 +129,7 @@ $$
 
 This is 23.3 points of spell power needed for each 1% damage increase, for a full BiS mage.
 
-Now why the discrepancy? Firstly we used an average of all casts, including crits, secondly using real world data brings RNG, even if everything hits you get partial resists, but those resist affect all the stats the same way.
+Now why the discrepancy? Using real world data brings RNG, even if everything hits, you get partial resists, or wrong damage range volatility, but those resist affect all the stats the same way.
 
 
 
