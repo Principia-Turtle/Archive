@@ -145,7 +145,7 @@ But most importantly the less percentual effect it has on our casts, as we can s
 
 ![media/spell-power-graph-2.png](../media/spell-power-graph-2.png)
 
-The percentual effect is much more important to us if we want to relate the stat to the others.
+As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others.
 
 ## Python code
 
