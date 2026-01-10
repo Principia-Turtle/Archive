@@ -20,6 +20,10 @@ We do not take in account the volatility, but only the average.
 
 The one thing area of effect spells change, is the number of trials / casts. Another thing is a AoE damage cap, this is different for each spell (around 7-10k) [[source]](https://www.wowhead.com/forums/topic/how-do-you-determine-who-is-king-of-aoe-30962), this damage cap might not work on some private servers.
 
+## Healing classes
+
+Healers don't deal with hit, hence they should relate the other stats to haste. Haste has no volatility issues, it's effect is linear until hard cap - this makes it ideal of the three.
+
 ## Relating haste to hit
 
 12.6 spell hit rating increases your chance to hit by 1%.
