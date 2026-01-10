@@ -63,7 +63,7 @@ $$1624 \times 1.15 \times 1.355 \approx \mathbf{2,530 \text{ damage per cast}}$$
 
 Result:
 
-$$\frac{2530}{5164} \approx \mathbf{0.49\%}$$
+$$\frac{2530}{5164} \approx \mathbf{0.49}$$
 
 So we established that roughly 49% of the total damage came from Spell Power.
 
