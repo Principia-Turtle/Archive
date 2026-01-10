@@ -131,7 +131,7 @@ $$
 
 This is 23.3 points of spell power needed for each 1% damage increase, for a full BiS mage.
 
-Now why the discrepancy? Using real world data brings RNG, even if everything hits you get partial resists, but those resist affect all the stats the same way.
+Now why the discrepancy? Firstly we used an average of all casts, including crits, secondly using real world data brings RNG, even if everything hits you get partial resists, but those resist affect all the stats the same way.
 
 
 
@@ -141,9 +141,9 @@ Now why the discrepancy? Using real world data brings RNG, even if everything hi
 
 The more spell power we have, the more our hits strike, this effect is linear.
 
-But most importantly the less percentual effect it has on our casts, as we can see in this graph:
+But most importantly the less percentual effect it has on our casts, as we can see in this graph for our mage example:
 
-![media/graph-bernoulli.png](../media/spell-power-diminishing-returns.png)
+![media/spell-power-graph-2.png](../media/spell-power-graph-2.png)
 
 The percentual effect is much more important to us if we want to relate the stat to the others.
 
