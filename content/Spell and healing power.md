@@ -15,7 +15,9 @@ none
 Spell and healing power are the only caster stats which are not based on random numbers - they add a flat bonus effect to spells. This complicates things a little, because we always wonder how much of each stat increases our performance by 1%.
 >Hence they are not a subject of volatility.
 
-## Formula
+## Formula from observations
+
+Doing it via observation has it's limits, mainly because spellpower has effect on both critical strike rating and haste too. Here I try to do some approximation, if you want algebraic approach, skip to next section.
 
 The formula for the effect on damage can be described as:
 
@@ -41,7 +43,7 @@ $AVG_{observed}$ is The average damage per cast from your log/graph.
 
 
 
-## Example
+### Example
 
 This screenshot is when I was full BiS mage. 
 
@@ -93,7 +95,47 @@ $$
 51.64 / 1.558 \approx \mathbf{33 \text{ SP}}
 $$
 
->That is a lot. This makes spell power the worst stat for a late game mage.
+>That is a lot.
+
+## Formula from algebra
+
+Earlier we have depended upon $AVG_observed$, now let's replace it with a calculated $AVG_{calc}$
+
+Total damage is the sum of Base Damage and Spell Power, both multiplied by your modifiers (Talents, Crits, Buffs):
+
+$$
+AVG_{calc} = (\frac{Base_{spell}}{C} + SP \times C) \times M
+$$
+
+To gain 1% DPS, we need to increase our total damage by 1%.
+Since Modifiers ($M$) apply to everything, they would cancel out of the relative equation.
+Then the amount of spell power needed to add 1% damage simplifies to:
+
+$$
+SP_{weight} = 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+$$
+
+Where:
+
+$Base_{spell}$: The average damage listed on the spell tooltip (Rank 13 Fireball $\approx$ 815).
+
+$C$: The spell coefficient (15\% Empowered Fireball).
+
+>It gains effect from spell power, it is not a coefficient we have removed earlier (like improved scorch)
+
+$SP_{current}$: The current Spell Power (1624).
+
+$$
+SP_{weight} = 0.01 \times \left( \frac{815}{1.15} + 1624 \right)= 23.3
+$$
+
+This is 23.3 points of spell power needed for each 1% damage increase, for a full BiS mage.
+
+Now why the discrepancy? Using real world data brings RNG, even if everything hits you get partial resists, but those resist affect all the stats the same way.
+
+
+
+
 
 ## Diminishing returns
 
