@@ -17,7 +17,7 @@ Spell and healing power are the only caster stats which are not based on random 
 
 ## Formula from observations
 
-Doing it via observation has it's limits, mainly because spellpower has effect on both critical strike rating and haste too. Here I try to do some approximation, if you want algebraic approach, skip to next section.
+Doing it via observation has it's limits, mainly because of RNG. Here I try to do some approximation, if you want algebraic, more correct approach, skip to next section.
 
 The formula for the effect on damage can be described as:
 
