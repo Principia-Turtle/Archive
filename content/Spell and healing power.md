@@ -85,12 +85,12 @@ Current Damage: 4128
 
 Increase of 1%: $41.28$ damage
 
-Coefficient: 1.61 (from previous step)
+Coefficient: 1.558 (from previous step)
 
 SP Needed for 1% increase: 
 
 $$
-41.28 / 1.61 \approx \mathbf{26 \text{ SP}}
+41.28 / 1.61 \approx \mathbf{25.6 \text{ SP}}
 $$
 
 >Approximation
@@ -102,11 +102,11 @@ Earlier we have depended upon $AVG_observed$, now let's replace it with a calcul
 Total damage is the sum of Base Damage and Spell Power, both multiplied by your modifiers (Talents, Crits, Buffs):
 
 $$
-AVG_{calc} = (\frac{Base_{spell}}{C} + SP \times C) \times M
+AVG_{calc} = (Base_{spell} + SP \times C) \times M
 $$
 
 To gain 1% DPS, we need to increase our total damage by 1%.
-Since Modifiers ($M$) apply to everything, they would cancel out of the relative equation.
+Since Modifiers ($M$) apply to everything, they would cancel out of the relative equation. Also we can divide the whole equation by C.
 Then the amount of spell power needed to add 1% damage simplifies to:
 
 $$
@@ -117,7 +117,7 @@ Where:
 
 $Base_{spell}$: The average damage listed on the spell tooltip (Rank 13 Fireball $\approx$ 815).
 
-$C$: The spell coefficient (15\% Empowered Fireball).
+$C$: The spell coefficient (115\% Empowered Fireball).
 
 >It gains effect from spell power, it is not a coefficient we have removed earlier (like improved scorch)
 
@@ -143,7 +143,7 @@ But most importantly the less percentual effect it has on our casts, as we can s
 
 ![media/spell-power-graph-2.png](../media/spell-power-graph-2.png)
 
-As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others. Also the blue line doesn't start at the origin, that is because even a naked wizard does some damage. One could come up with some concept of "ghost spell power" which would replace the base damage of spells, but so far I do not see any point of doing it because it would not change anything. Maybe I will find I was wrong.
+As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others. Also the blue line doesn't start at the origin, that is because even a naked wizard does some damage. One could come up with some concept of "ghost spell power" which would replace the base damage of spells, actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power
 
 ## Python code
 
