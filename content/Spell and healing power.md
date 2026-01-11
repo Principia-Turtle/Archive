@@ -97,7 +97,7 @@ $$
 
 ## Formula from algebra
 
-Earlier we have depended upon $AVG_observed$, now let's replace it with a calculated $AVG_{calc}$
+Earlier we have depended upon $AVG_{observed}$, now let's replace it with a more precise, calculated, $AVG_{calc}$
 
 Total damage is the sum of Base Damage and Spell Power, both multiplied by your modifiers (Talents, Crits, Buffs):
 
