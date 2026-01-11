@@ -80,6 +80,8 @@ $$
 Hit : Haste : Crit : SP = 1 : 0.79 : 0.8 : 0.38
 $$
 
+>The discrepancy between hit and haste comes from the ratings, you need more haste rating for 1%
+
 ## Adding crit from intellect
 
 Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating.
