@@ -124,10 +124,10 @@ $C$: The spell coefficient (115\% Empowered Fireball).
 $SP_{current}$: The current Spell Power (1624).
 
 $$
-SP_{weight} = 0.01 \times \left( \frac{815}{1.15} + 1624 \right)= 23.3 SP
+SP_{weight} = 0.01 \times \left( \frac{652}{1.15} + 1624 \right)= 21.91 SP
 $$
 
-This is 23.3 points of spell power needed for each 1% damage increase, for a full BiS mage.
+This is 21.91 points of spell power needed for each 1% damage increase, for a full BiS mage.
 
 Now why the discrepancy? Using real world data brings RNG, even if everything hits, you get partial resists, or wrong damage range volatility, but those resist affect all the stats the same way. Also I didn't include flame cap, trinkets and destruction potions into the equations, it wouldn't even make sense because their effect is very short compared to the whole fight - hence even more volatility. So if I just look at the bigger picture it is reasonable to get slightly lower weight, when considering the other buffs, because of the relation between SP and its weight is inversely proportional.
 
@@ -137,13 +137,7 @@ Now why the discrepancy? Using real world data brings RNG, even if everything hi
 
 ## Diminishing returns
 
-The more spell power we have, the more our hits strike, this effect is linear.
-
-But most importantly the less percentual effect it has on our casts, as we can see in this graph for our mage example:
-
-![media/spell-power-graph-2.png](../media/spell-power-graph-2.png)
-
-As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others. Also the blue line doesn't start at the origin, that is because even a naked wizard does some damage. One could come up with some concept of "ghost spell power" which would replace the base damage of spells, and actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power!
+As you can see the amount of SP needed to get 1% is proportional to the amount of SP we have. The percentual effect is much more important to us if we want to relate the stat to the others. If I tried to visualise the graph of haste:spell power relation, the the SP line would not start at the origin. So I bring the concept of "ghost spell power" which would replace the base damage of spells, and actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power.
 
 ## Ghost Spell Power
 
@@ -153,8 +147,7 @@ $$
 \frac{Base_{spell}}{C} = G
 $$
 
-Must be added to our calculation of spell power, otherwise the graph doesn't make much sense - this would render our weights useless until some amount of SP.
-
+Must be added to our visualisation of spell power, otherwise the graph wouldn't make much sense. The original formula itself doesn't change, just our graph starts at the origin now.
 $Base_{spell}$ = (575 + 730)/2 = 652.5 (I don't deal with the dot)
 
 C = 1.15 (For empowered fireball talent)
