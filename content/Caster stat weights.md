@@ -94,10 +94,6 @@ Hit : Haste : Crit : Int : SP = 1 : 0.79 : 0.8 : 0.22 : 0.38
 
 >For a full BiS mage example
 
-Here is a graph showing the weight relations
-
-![media/caster-stat-weights.png](../media/caster-stat-weights.png)
-
 ## Python
 
 Script for the graph in google colab
