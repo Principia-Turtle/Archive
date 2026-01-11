@@ -106,7 +106,8 @@ AVG_{calc} = (Base_{spell} + SP \times C) \times M
 $$
 
 To gain 1% DPS, we need to increase our total damage by 1%.
-Since Modifiers ($M$) apply to everything, they would cancel out of the relative equation. Also we can divide the whole equation by C.
+Since Modifiers ($M$) apply to everything, they would cancel out of the relative equation. Also we can divide the whole equation by C, this will separate the effect of spell itself and our SP.
+
 Then the amount of spell power needed to add 1% damage simplifies to:
 
 $$
@@ -115,7 +116,7 @@ $$
 
 Where:
 
-$Base_{spell}$: The average damage listed on the spell tooltip (Rank 13 Fireball $\approx$ 815).
+$Base_{spell}$: The average damage listed on the spell tooltip (Rank 13 Fireball $\approx$ 652).
 
 $C$: The spell coefficient (115\% Empowered Fireball).
 
@@ -133,7 +134,7 @@ Now why the discrepancy? Using real world data brings RNG, even if everything hi
 
 ## Ghost Spell Power
 
-Even a naked mage does some sort of damage, to take this into account we introduce some sort of ghost spell power, it is the term from earlier:
+Even a naked mage does some sort of damage, to take this into account we introduce some sort of "ghost spell power", it is the term we separated from earlier:
 
 $$
 \frac{Base_{spell}}{C} = G
@@ -145,7 +146,7 @@ $Base_{spell}$ = (575 + 730)/2 = 652.5 (I don't deal with the dot)
 C = 1.15 (For empowered fireball talent)
 
 $$
-G = \frac{652.5}{1.15} = 567.39
+G = \frac{652.5}{1.15} = 567.39 \text{GSP}
 $$
 
 ![media/spell-power-graph-4.png](../media/spell-power-graph-4.png)
