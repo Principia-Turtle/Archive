@@ -12,7 +12,9 @@ none
 
 ## Introduction
 
-Earlier (see related nodes) we established all stats as percentual damage increase, the most complicated of them was spell power due to the fact it works as a flat increase, rather than percentual. To make the stat weights we consider 1% to damage via each stat, then convert it to the stat's rating and normalize it. We will find, that all classes have the same hit:haste weight and each class has even constant crit and intellect weight, which leaves us with only varying spell power.
+Earlier (see related nodes) we established all stats as percentual damage increase, the most complicated of them was spell power due to the fact it works as a flat increase, rather than percentual. To make the stat weights we consider 1% to damage via each stat, then convert it to the stat's rating and normalize it.
+
+The Hit to Haste relation will be constant for all classes (read [[Hit cap vs haste]]), Crit and intellect weight will only depend on your spells and talents (read [[Spell crit]]) and SP rating needs to be calculated for each spell and itemisation individually (read [[Spell and healing power]]).
 
 We do not take in account the volatility, but only the average.
 
@@ -91,8 +93,6 @@ Every 80 points of intellect give us 1% spell crit, we can directly relate it to
 Hit : Haste : Crit : Int : SP = 1 : 0.79 : 0.8 : 0.22 : 0.38 
 
 >For a full BiS mage example
-
-The Hit to Haste relation will be constant for all classes, Crit and intellect weight will only depend on your spells and talents and SP rating needs to be calculated for each spell and itemisation individually.
 
 Here is a graph showing the weight relations
 
