@@ -8,7 +8,7 @@ Spineshatter (A)
 
 I have always enjoyed quite many aspects of the game, like discovering secret locations (got banned for making it to GM Island), the community, raiding, lore, roleplaying, but mostly theorycrafting. 
 
-I tend to question things presented as meta with no data to back it up, I have noticed each server has different metas sometimes and when you check the sources, they just present some formulas, black-box simulators and rules without derivations.
+I tend to question things presented as meta with no data to back it up, I have noticed each server has different metas sometimes and when you check the sources, they just present some formulas, black-box simulators and rules without derivations. This sparks my curiosity.
 
 Majority of my time I have played on Excalibur TBC server (R.I.P.) As a rookie I joined Sunwell progression guild, which later became what is now called a hardcore guild. This term didn't exist back then, I think the people on the server rather called us as a toxic guild. We were friendly, but not towards applicants who had no clue what is going on. I feel shameful sometimes, because I was such an applicant once. 
 
