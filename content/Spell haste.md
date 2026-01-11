@@ -12,7 +12,7 @@ none
 
 ## Introduction
 
-Spell haste increses cast time of spells, this node is concerned with it's effect on damage and it's diminishing returns.
+Spell haste increses cast time of spells, this node is concerned with it's effect on damage.
 
 ## Stat conversion
 
