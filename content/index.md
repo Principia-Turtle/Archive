@@ -14,6 +14,8 @@ Also remember a game should be enjoyed. If you enjoy the math behind it like I d
 
 Want to join the project? So far it is only me. Contact me in the game: [[Author-Orfeus]]
 
+>I believe information should be always free for everyone, but a lot of my time I have dedicated to building this site. If you want to support the project, send me something small via the game mail :)
+
 ### Foundations
 >General theory behind game mechanics, sometimes with examples.
 
