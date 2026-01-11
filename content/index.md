@@ -12,7 +12,7 @@ We follow the math to tell us the answers. Following the path leads us usually t
 
 Also we do not say this is only way to play the game, maybe the class / spec combination is super fun for you, then go for it.
 
-Want to join the project? So far it is only me. Contact me in the game: [[Author-Calais]]
+Want to join the project? So far it is only me. Contact me in the game: [[Author-Orfeus]]
 
 ### Foundations
 >General theory behind game mechanics, sometimes with examples.
