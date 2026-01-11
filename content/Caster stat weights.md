@@ -94,7 +94,7 @@ The Hit to Haste relation will be constant for all classes, Crit and intellect w
 
 Here is a graph showing the weight relations
 
-![media/weight-ratios.png](../media/weight-ratios.png)
+![media/caster-stat-weights.png](../media/caster-stat-weights.png)
 
 ## Python
 
