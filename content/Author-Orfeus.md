@@ -1,10 +1,10 @@
 ---
-title: Calais / Bion / Orfeus
+title: Orfeus
 tags:
   - no-graph
 ---
 
-Back2Basics - TBC
+Spineshatter EU
 
 I have always enjoyed quite many aspects of the game, like discovering secret locations (got banned to making it to GM Island), the community, raiding, but mostly theorycrafting. 
 
@@ -14,8 +14,4 @@ Majority of my time I have played on Excalibur TBC server (RIP), I was mostly kn
 
 Then I figured in my early 20's that I have spent around 10% of my time lived in the game, hence I deleted the game completely and started a photography business. 
 
-Now after almost 10 years I found myself missing the game, hence I am back. Still not sure if I want to go the PvE path again, maybe rather just focus on what I like the most. As a non-german speaking czech I joined a german only server and I am having a blast.
-
-There is still so much to learn and do, like PvP, roleplaying, or market control. Or at least learn german.
-
-https://youtu.be/TgX9UYKg_dE
+Now after almost 10 years I found myself missing the game again.
