@@ -143,7 +143,28 @@ But most importantly the less percentual effect it has on our casts, as we can s
 
 ![media/spell-power-graph-2.png](../media/spell-power-graph-2.png)
 
-As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others. Also the blue line doesn't start at the origin, that is because even a naked wizard does some damage. One could come up with some concept of "ghost spell power" which would replace the base damage of spells, actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power
+As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others. Also the blue line doesn't start at the origin, that is because even a naked wizard does some damage. One could come up with some concept of "ghost spell power" which would replace the base damage of spells, and actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power!
+
+## Ghost Spell Power
+
+As we have shown earlier, the term:
+
+$$
+\frac{Base_{spell}}{C} = G
+$$
+
+Must be added to our calculation of spell power, otherwise the graph doesn't make much sense.
+
+$Base_{spell}$ = (575 + 730)/2 = 652.5 (I don't deal with the dot)
+
+C = 1.15 (For empowered fireball talent)
+
+$$
+G = \frac{652.5}{1.15} = 567.39
+$$
+
+![media/spell-power-graph-3.png](../media/spell-power-graph-3.png)
+
 
 ## Python code
 
