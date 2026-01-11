@@ -124,7 +124,7 @@ $C$: The spell coefficient (15\% Empowered Fireball).
 $SP_{current}$: The current Spell Power (1624).
 
 $$
-SP_{weight} = 0.01 \times \left( \frac{815}{1.15} + 1624 \right)= 23.3
+SP_{weight} = 0.01 \times \left( \frac{815}{1.15} + 1624 \right)= 23.3 SP
 $$
 
 This is 23.3 points of spell power needed for each 1% damage increase, for a full BiS mage.
