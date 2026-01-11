@@ -156,7 +156,7 @@ $$
 G = \frac{652.5}{1.15} = 567.39
 $$
 
-![media/spell-power-graph-3.png](../media/spell-power-graph-3.png)
+![media/spell-power-graph-4.png](../media/spell-power-graph-4.png)
 
 
 ## Python code
