@@ -137,11 +137,11 @@ Now why the discrepancy? Using real world data brings RNG, even if everything hi
 Even a naked mage does some sort of damage, to take this into account we introduce some sort of "ghost spell power", it is the term we separated from earlier:
 
 $$
-\frac{Base_{spell}}{C} = G
+\frac{Base_{spell}}{C} = GSP
 $$
 
 This must be added to our visualisation of spell power, otherwise the graph wouldn't make much sense. The original formula itself doesn't change, just our graph starts at the origin now.
-$Base_{spell}$ = (575 + 730)/2 = 652.5 (I don't deal with the dot)
+$Base_{spell}$ = (575 + 730)/2 = 652.5 (I don't deal with the small damage over time aspect of the spell)
 
 C = 1.15 (For empowered fireball talent)
 
@@ -153,7 +153,7 @@ $$
 
 ## Diminishing returns
 
-As you can see the amount of SP needed to get 1% is proportional to the amount of SP we have. The percentual effect is much more important to us if we want to relate the stat to the others. If I tried to visualise the graph of haste:spell power relation, the the SP line would not start at the origin. So I bring the concept of "ghost spell power" which would replace the base damage of spells, and actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power.
+As you can see the amount of SP needed to get 1% is proportional to the amount of SP we have. The percentual effect is much more important to us if we want to relate the stat to the others.
 
 
 ## Python code
