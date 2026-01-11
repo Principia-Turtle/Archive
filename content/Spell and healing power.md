@@ -131,23 +131,15 @@ This is 21.91 points of spell power needed for each 1% damage increase, for a fu
 
 Now why the discrepancy? Using real world data brings RNG, even if everything hits, you get partial resists, or wrong damage range volatility, but those resist affect all the stats the same way. Also I didn't include flame cap, trinkets and destruction potions into the equations, it wouldn't even make sense because their effect is very short compared to the whole fight - hence even more volatility. So if I just look at the bigger picture it is reasonable to get slightly lower weight, when considering the other buffs, because of the relation between SP and its weight is inversely proportional.
 
-
-
-
-
-## Diminishing returns
-
-As you can see the amount of SP needed to get 1% is proportional to the amount of SP we have. The percentual effect is much more important to us if we want to relate the stat to the others. If I tried to visualise the graph of haste:spell power relation, the the SP line would not start at the origin. So I bring the concept of "ghost spell power" which would replace the base damage of spells, and actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power.
-
 ## Ghost Spell Power
 
-As we have shown earlier, the ghost spell power term:
+Even a naked mage does some sort of damage, to take this into account we introduce some sort of ghost spell power, it is the term from earlier:
 
 $$
 \frac{Base_{spell}}{C} = G
 $$
 
-Must be added to our visualisation of spell power, otherwise the graph wouldn't make much sense. The original formula itself doesn't change, just our graph starts at the origin now.
+This must be added to our visualisation of spell power, otherwise the graph wouldn't make much sense. The original formula itself doesn't change, just our graph starts at the origin now.
 $Base_{spell}$ = (575 + 730)/2 = 652.5 (I don't deal with the dot)
 
 C = 1.15 (For empowered fireball talent)
@@ -157,6 +149,10 @@ G = \frac{652.5}{1.15} = 567.39
 $$
 
 ![media/spell-power-graph-4.png](../media/spell-power-graph-4.png)
+
+## Diminishing returns
+
+As you can see the amount of SP needed to get 1% is proportional to the amount of SP we have. The percentual effect is much more important to us if we want to relate the stat to the others. If I tried to visualise the graph of haste:spell power relation, the the SP line would not start at the origin. So I bring the concept of "ghost spell power" which would replace the base damage of spells, and actually the term $\frac{Base_{spell}}{C}$ is the Ghost Spell Power.
 
 
 ## Python code
