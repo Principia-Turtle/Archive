@@ -143,7 +143,7 @@ But most importantly the less percentual effect it has on our casts, as we can s
 
 ![media/spell-power-graph-2.png](../media/spell-power-graph-2.png)
 
-As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others.
+As you can see the amount of SP needed to get 1% more damage grows quite quickly. The percentual effect is much more important to us if we want to relate the stat to the others. Also the blue line doesn't start at the origin, that is because even a naked wizard does some damage. One could come up with some concept of "ghost spell power" which would replace the base damage of spells, but so far I do not see any point of doing it because it would not change anything. Maybe I will find I was wrong.
 
 ## Python code
 
