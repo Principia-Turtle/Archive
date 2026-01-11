@@ -153,7 +153,7 @@ $$
 \frac{Base_{spell}}{C} = G
 $$
 
-Must be added to our calculation of spell power, otherwise the graph doesn't make much sense.
+Must be added to our calculation of spell power, otherwise the graph doesn't make much sense - this would render our weights useless until some amount of SP.
 
 $Base_{spell}$ = (575 + 730)/2 = 652.5 (I don't deal with the dot)
 
