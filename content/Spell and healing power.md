@@ -129,7 +129,7 @@ $$
 
 This is 23.3 points of spell power needed for each 1% damage increase, for a full BiS mage.
 
-Now why the discrepancy? Using real world data brings RNG, even if everything hits, you get partial resists, or wrong damage range volatility, but those resist affect all the stats the same way.
+Now why the discrepancy? Using real world data brings RNG, even if everything hits, you get partial resists, or wrong damage range volatility, but those resist affect all the stats the same way. Also I didn't include flame cap, trinkets and destruction potions into the equations, it wouldn't even make sense because their effect is very short compared to the whole fight - hence even more volatility.
 
 
 
