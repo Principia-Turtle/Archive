@@ -111,7 +111,7 @@ Since Modifiers ($M$) apply to everything, they would cancel out of the relative
 Then the amount of spell power needed to add 1% damage simplifies to:
 
 $$
-SP_{weight} = 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+SP_{weight} = \frac{AVG_{calc}}{100} = 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
 Where:
