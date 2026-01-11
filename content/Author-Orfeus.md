@@ -6,7 +6,7 @@ tags:
 
 Spineshatter (A)
 
-I have always enjoyed quite many aspects of the game, like discovering secret locations (got banned to making it to GM Island), the community, raiding, but mostly theorycrafting. 
+I have always enjoyed quite many aspects of the game, like discovering secret locations (got banned to making it to GM Island, or rather trolling to be GM since I had the location tag ;D ), the community, raiding, but mostly theorycrafting. 
 
 Also I tend to question things presented as meta with no data to back it up, I have noticed each server has different metas sometimes and when you check the sources, they just present some formulas and rules without derivations.
 
