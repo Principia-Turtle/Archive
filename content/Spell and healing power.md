@@ -147,7 +147,7 @@ As you can see the amount of SP needed to get 1% more damage grows quite quickly
 
 ## Ghost Spell Power
 
-As we have shown earlier, the term:
+As we have shown earlier, the ghost spell power term:
 
 $$
 \frac{Base_{spell}}{C} = G
