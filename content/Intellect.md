@@ -1,6 +1,6 @@
 ### Authors:
 
-[[Author-Calais]], [[source]](https://www.warcrafttavern.com/tbc/guides/pve-affliction-warlock-stat-priority/)
+[[Author-Orfeus]], [[source]](https://www.warcrafttavern.com/tbc/guides/pve-affliction-warlock-stat-priority/)
 
 ### Peer review done by:
 
