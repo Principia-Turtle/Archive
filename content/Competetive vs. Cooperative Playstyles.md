@@ -40,7 +40,7 @@ Their goal is not necesarrily to be top dps, but to do the assigned job to help 
 
 Rest of the damage classes belong here (Mages, Warlocks, BM Hunters, Fury Warriors, Rogues)
 
-Except few encounters (like a mage or warlock tank, then they are not in this role) their role is to beat each other in the damage meters and not wipe the raid while doing it. (Stop DPS means stop DPS, not top DPS). 
+Except few encounters (like a mage or warlock tank, then they are not in this role) their role is to beat each other in the damage meters and not wipe the raid while doing it. (Stop DPS means stop DPS, not top DPS). But again, this competetivness brings problems. Your personal DPS records will scale with raid dps records, due to the fight being shorter and more volatile as shown in [[Mechanics of Random Number Based Game]]. So if you want to top dps, help your weakest DPS, not beat him in logs.
 
 The most unfortunate in this group are PvE rogues, who have lowest dps and no raid utility. But I think being a fun person and keeping the raid spirits up, or doing raidleading is much more essential than any other in-game buff, hence such a rogue with social / leadership skills could be considered to be in the mixed role and have an essential spot in raids.
 
