@@ -45,10 +45,10 @@ $$
 
 ## Adding crit
 
-If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two and more casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
+If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit_{chance} / Crit_{bonus})
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space 1 \times Crit_{bonus}
 $$
 
 
@@ -58,7 +58,7 @@ $$
 To add spell power we need to do the math as in [[Spell and healing power]]. Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating. formula with the ratings then becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space Crit_{bonus} \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
 ## Final weights
@@ -67,8 +67,10 @@ In final weights I am interested in "how much of each stat will increase my perf
 
 $$
 W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 
-12.66 \space : \space (1 + Haste) \times (1 - HIT_{miss}) \times 15.77 \space : \space (Crit_{chance} / Crit_{bonus}) \times 22.1 \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+12.66 \space : \space (1 + Haste) \times (1 - HIT_{miss}) \times 15.77 \space : \space \frac{22.1}{Crit_{bonus}} \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
+
+
 
 ## Movement penalty
 
