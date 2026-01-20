@@ -51,8 +51,7 @@ $$
 \frac{1}{W_{hit}} \space : \space\frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus})
 $$
 
->are relating to haste now, so we need to divide the following stats by it's weight
->
+> we are relating to haste now, so we need to divide the following stats by it's weight ${W_{haste}$
 
 
 ## Adding spell power
