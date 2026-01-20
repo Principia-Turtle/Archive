@@ -81,6 +81,12 @@ $$
 W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 12.66 \space : \space \frac{1}{(1 + Haste) * (1 - HIT_{miss})/15.77} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})/22.1} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})/22.1} \times 0.276 \space : \space \frac{W_{haste}}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)}
 $$
 
+And divide everything by 12.66:
+
+$$
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 1 \space : \space \frac{12.66}{(1 + Haste) * (1 - HIT_{miss})/15.77} \space : \space \frac{W_{haste}\times 12.66}{(Crit / Crit_{bonus})/22.1} \space : \space \frac{W_{haste} \times 12.66}{(Crit / Crit_{bonus})/22.1} \times 0.276 \space : \space \frac{W_{haste} \times 12.66}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)}
+$$
+
 
 This formula is general for all casting classes, as you can see not being hit capped affects $W_{haste}$ which then affects all the other stats negatively.
 
