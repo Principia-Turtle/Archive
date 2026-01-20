@@ -48,7 +48,7 @@ $$
 If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two and more casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit{chance} / Crit_{bonus})
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit_{chance} / Crit_{bonus})
 $$
 
 
