@@ -16,7 +16,7 @@ Earlier (see related nodes) we established all stats as percentual damage increa
 
 The Hit to Haste relation will be constant for all classes (read [[Hit cap vs haste]]), Crit and intellect weight will only depend on your spells and talents (read [[Spell crit]]) and SP rating needs to be calculated for each spell and itemisation individually (read [[Spell and healing power]]).
 
-We do not take in account the volatility, but only the average.
+We do not take in account the volatility, but only the average. Volatility could slightly increase the weight of spell crit. 
 
 ## Single target vs. AoE
 
@@ -38,28 +38,27 @@ Spell hit, along with haste and crit, is a subject to volatility. In [[Hit cap v
 So we get relation:
 
 $$
-Hit : Haste \times C_{haste}
+W_{hit} \space : \space W_{haste} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss})
 $$
-
-Where $C_{haste}$ is the constant. (If we get 98% effect, then it is 2%)
 
 ## Adding crit
 
-If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
+If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two and more casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
 
 $$
-Hit : Haste \times C_{haste} : Crit / Crit_{bonus}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus})
 $$
 
 >the smaller number, the better
 >
+
 
 ## Adding spell power
 
 To add spell power we need to do the math as in [[Spell and healing power]], formula with the ratings then becomes:
 
 $$
-Hit : Haste \times C_{haste} : Crit / Crit_{bonus} : SP
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{SP} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
 ## Converting to numerical weight ratios:
@@ -90,9 +89,11 @@ Every 80 points of intellect give us 1% spell crit, we can directly relate it to
 
 ## Final weights
 
-Hit : Haste : Crit : Int : SP = 1 : 0.79 : 0.8 : 0.22 : 0.38 
+$$
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{int} \space : \space W_{SP} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space : \space (Crit / Crit_{bonus}) \times 0.276 \space : \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+$$
 
->For a full BiS mage example
+
 
 ## Python
 
