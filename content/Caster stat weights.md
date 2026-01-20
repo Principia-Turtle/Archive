@@ -42,7 +42,7 @@ W_{hit} \space : \space W_{haste} = 1 \space : \space \frac{1}{1 - HIT_{miss}}
 $$
 
 
->Higher number means lower effectivity
+>Hit miss is a positive number
 
 ## Adding crit
 
