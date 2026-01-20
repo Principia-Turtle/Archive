@@ -82,7 +82,7 @@ W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \spa
 $$
 
 
-This formula is general for all casting classes, as you can see not being hit capped affects $W_{haste}$ which then affects all the other stats. The
+This formula is general for all casting classes, as you can see not being hit capped affects $W_{haste}$ which then affects all the other stats negatively.
 
 
 
