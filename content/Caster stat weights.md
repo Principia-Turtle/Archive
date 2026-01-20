@@ -78,7 +78,7 @@ $$
 And now to get the weights in correct form, where higher is better, I do inversion and normalize it:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 1 \space : \space \frac{15.77}{(1 + Haste) * (1 - HIT_{miss}) \times 12.66} \space : \space \frac{W_{haste} \times 22.1}{(Crit / Crit_{bonus})\times 12.66} \space : \space \frac{W_{haste}\times 22.1}{(Crit / Crit_{bonus})\times 12.66} \times 0.276 \space : \space \frac{W_{haste}}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right) \times 12.66}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 1 \space : \space \frac{15.77}{(1 + Haste) * (1 - HIT_{miss}) \times 12.66} \space : \space \frac{W_{haste} \times 22.1}{(Crit / Crit_{bonus})} \space : \space  W_{crit} \times 0.276 \space : \space \frac{W_{haste}}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)}
 $$
 
 
