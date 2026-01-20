@@ -24,7 +24,7 @@ The one thing area of effect spells change, is the number of trials / casts. Ano
 
 ## Healing classes
 
-Healers don't deal with hit, hence they should relate the other stats to haste. Haste has no volatility issues, it's effect is linear until hard cap - this makes it ideal of the three.
+Healers don't deal with hit, hence they should set $W_{haste} = 1$
 
 ## Relating haste to hit
 
@@ -38,18 +38,20 @@ Spell hit, along with haste and crit, is a subject to volatility. In [[Hit cap v
 So we get relation:
 
 $$
-W_{hit} \space : \space W_{haste} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss})
+\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss})
 $$
+
+>Higher number means lower effectivity, to get the correct weight we need to do inversion later.
 
 ## Adding crit
 
 If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two and more casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus})
+\frac{1}{W_{hit}} \space : \space\frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus})
 $$
 
->the smaller number, the better
+>are relating to haste now, so we need to divide the following stats by it's weight
 >
 
 
@@ -58,30 +60,9 @@ $$
 To add spell power we need to do the math as in [[Spell and healing power]], formula with the ratings then becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{SP} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} \space : \space \frac{W_{haste}}{W_{SP}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
-## Converting to numerical weight ratios:
-
-$$
-12.6 : 15.77 \times (1 + 0.01) : 22.1 / (1 + 0.4) : 33
-$$
-
->The 0.4 is for mage ignite
-
-now divide all numbers by 12.6 (relating it to hit)
-
-$$
-1 : 1.26 : 1.25 : 2.61
-$$
-
-Here high number means low effectivity, so as a last step I do number inversion, 1/1, 1/1.26 ..  
-
-$$
-Hit : Haste : Crit : SP = 1 : 0.79 : 0.8 : 0.38
-$$
-
->The discrepancy between hit and haste comes from the ratings, you need more haste rating for 1%
 
 ## Adding crit from intellect
 
@@ -90,8 +71,17 @@ Every 80 points of intellect give us 1% spell crit, we can directly relate it to
 ## Final weights
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{int} \space : \space W_{SP} = Hit \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space : \space (Crit / Crit_{bonus}) \times 0.276 \space : \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} \space : \frac{W_{haste}}{W_{int}} \space : \space\frac{W_{haste}}{W_{SP}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space : \space (Crit / Crit_{bonus}) / 0.276 \space : \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
+
+And to get the weights in correct form, where higher number means better:
+
+$$
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 1 \space : \space \frac{1}{(1 + Haste) * (1 - HIT_{miss})} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})} \times 0.276 \space : \space \frac{W_{haste}}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)}
+$$
+
+
+This formula is general for all casting classes, as you can see not being hit capped affects $W_{haste}$ which then affects all the other stats.
 
 
 
