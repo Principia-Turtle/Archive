@@ -71,6 +71,10 @@ W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{IN
 12.66 \space : \space (1 + Haste) \times (1 - HIT_{miss}) \times 15.77 \space : \space (Crit_{chance} / Crit_{bonus}) \times 22.1 \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
+## Movement penalty
+
+The benefit of working with the weight in this form, rather than 1 : 0.97 : 0.75 ... etc. is that we can directly see how moving punishes us during encounters. Missing 1 cast is equal to loosing 2-3 sec of our active casting time. Maybe having 30 extra spell power will buy us a few seconds of activity, or we can compensate lack of gear by correct positioning. Hence we can relate the all the stats to a more basic unit - time.
+
 
 
 
