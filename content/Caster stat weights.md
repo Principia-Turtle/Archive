@@ -69,18 +69,20 @@ Every 80 points of intellect give us 1% spell crit, we can directly relate it to
 
 ## Final weights
 
-$$
-\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} \space : \frac{W_{haste}}{W_{int}} \space : \space\frac{W_{haste}}{W_{SP}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space : \space (Crit / Crit_{bonus}) / 0.276 \space : \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
-$$
-
-And to get the weights in correct form, where higher number means better:
+Now we need to divide all the weights by their ratings:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 1 \space : \space \frac{1}{(1 + Haste) * (1 - HIT_{miss})} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})} \times 0.276 \space : \space \frac{W_{haste}}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)}
+\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} \space : \frac{W_{haste}}{W_{int}} \space : \space\frac{W_{haste}}{W_{SP}} = \frac{1}{12.66} \space : \space (1 + Haste) * (1 - HIT_{miss}) /15.77 \space : \space (Crit / Crit_{bonus}) /22.1 \space : \space (Crit / Crit_{bonus}) /22.1 / 0.276 \space : \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+$$
+
+And now to get the weights in correct form, where higher is better, I do inversion:
+
+$$
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 12.66 \space : \space \frac{1}{(1 + Haste) * (1 - HIT_{miss})/15.77} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})/22.1} \space : \space \frac{W_{haste}}{(Crit / Crit_{bonus})/22.1} \times 0.276 \space : \space \frac{W_{haste}}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)}
 $$
 
 
-This formula is general for all casting classes, as you can see not being hit capped affects $W_{haste}$ which then affects all the other stats.
+This formula is general for all casting classes, as you can see not being hit capped affects $W_{haste}$ which then affects all the other stats. The
 
 
 
