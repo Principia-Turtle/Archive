@@ -61,7 +61,7 @@ $$
 To add spell power we need to do the math as in [[Spell and healing power]]. Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating. formula with the ratings then becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space 1 - HIT_{miss} \space : \space \frac{1}{Crit_{bonus} - 1} \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space \frac{1}{Crit_{bonus} - 1} \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
 ## Final weights
