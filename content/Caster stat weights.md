@@ -38,53 +38,39 @@ Spell hit, along with haste and crit, is a subject to volatility. In [[Hit cap v
 So we get relation:
 
 $$
-\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss})
+W_{hit} \space : \space W_{haste} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss})
 $$
 
->Higher number means lower effectivity, to get the correct weight we need to do inversion later.
+>Higher number means lower effectivity
 
 ## Adding crit
 
 If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two and more casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
 
 $$
-\frac{1}{W_{hit}} \space : \space\frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus})
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus})
 $$
 
 > we are relating to haste now, so we need to divide crit, SP and INT by it's weight
 
 
-## Adding spell power
+## Adding spell power and itellect
 
-To add spell power we need to do the math as in [[Spell and healing power]], formula with the ratings then becomes:
+To add spell power we need to do the math as in [[Spell and healing power]]. Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating. formula with the ratings then becomes:
 
 $$
-\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} \space : \space \frac{W_{haste}}{W_{SP}} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space (1 + Haste) * (1 - HIT_{miss}) \space : \space (Crit / Crit_{bonus}) \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
-
-
-## Adding crit from intellect
-
-Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating.
 
 ## Final weights
 
-Now we need to divide all the weights by their ratings:
+In final weights I am interested in "how much of each stat will increase my performance by 1\%" Hence the weights, after multiplying it by ratings are:
 
 $$
-\frac{1}{W_{hit}} \space : \space \frac{1}{W_{haste}} \space : \space \frac{W_{haste}}{W_{crit}} \space : \frac{W_{haste}}{W_{int}} \space : \space\frac{W_{haste}}{W_{SP}} = \frac{1}{12.66} \space : \space (1 + Haste) * (1 - HIT_{miss}) /15.77 \space : \space (Crit / Crit_{bonus}) /22.1 \space : \space (Crit / Crit_{bonus}) /22.1 / 0.276 \space : \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 
+12.66 \space : \space (1 + Haste) \times (1 - HIT_{miss}) \times 15.77 \space : \space (Crit_{chance} / Crit_{bonus}) \times 22.1 \space : \space  W_{crit} \times 0.276 \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
-And now to get the weights in correct form, where higher is better, I do inversion and normalize it:
-
-$$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : W_{int} \space : \space W_{SP} = 1 \space : \space \frac{15.77}{(1 + Haste) * (1 - HIT_{miss}) \times 12.66} \space : \space \frac{W_{haste} \times 22.1}{(Crit / Crit_{bonus})} \space : \space  W_{crit} \times 0.276 \space : \space \frac{W_{haste}}{0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)}
-$$
-
-
-
-
-This formula is general for all casting classes, as you can see not being hit capped affects $W_{haste}$ which then affects all the other stats negatively.
 
 
 
