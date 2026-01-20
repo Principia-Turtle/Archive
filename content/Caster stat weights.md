@@ -75,6 +75,8 @@ W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{IN
 12.66 \space : \space \frac{15.77}{1 - HIT_{miss}} \space : \space \frac{22.1}{Crit_{bonus} - 1} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
 $$
 
+So the lower the number, the better.
+
 
 
 ## Movement penalty
