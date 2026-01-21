@@ -16,7 +16,7 @@ Later, when friends left the game, I became the master of the guild, stepped dow
 
 The records are now pretty much irrelevant, since so many pro-players, with experience from harder content, have joined the game. But we had very laid back atmosphere, with healthy amount of slack and still cleared SWP in an hour, wiping was extremely rare and we had quite a lot of fun in vocal. I have seen current 30 min SWP runs, it is just a rush, but admirable ofcourse. The difference between 1h run and 30 min is insane. Also the records are non-existent now, because realmplayers and similar projects, on which were logs from all the TBC private servers, do not exist anymore.
 
-As of 2026 I have joined classic to experience the TBC again, I do not care for the logs or things like that anymore, since it doesn't make the game any more enjoyable. I just want to spend quality time there, mainly I want to learn to play the auction house, learn PvP, do Kara as often as possible and Kael too.
+As of 2026 I have joined classic to experience the TBC again, I do not care for the logs or things like that anymore, since it doesn't make the game any more enjoyable. Also I wouldn't stand a chance, honestly. I just want to spend quality time, mainly I want to learn to play the auction house, learn PvP, do Kara as often as possible and Kael too.
 
 My main was mage and CoH priest, hence on this archive I talk mostly about the casting class mechanics.
 
