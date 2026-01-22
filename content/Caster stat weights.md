@@ -49,7 +49,7 @@ $$
 Read the related node, the formula becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space 1 \times \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
 $$
 
 
