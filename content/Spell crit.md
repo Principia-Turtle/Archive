@@ -26,7 +26,15 @@ W_{crit}
 = \frac{1}{Crit_{bonus}}
 $$
 
->Where Crit_{bonus} would be 1.4, if talents give us extra 40%
+Now missing some hit will affect the stat weight in the same way it affects haste, hence:
+
+$$
+W_{crit}
+= \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
+$$
+
+>Where $Crit_{bonus}$ would be 1.4, if talents give us extra 40% and $Hit_{miss}$ is a positive number.
+>Note that lower weight, means we need less of the stat rating to increase our performance
 
 Another difference is, that hard cap is at 100% and the more we approach 50% crit, the more volatility we bring into our output. Read [[Mechanics of Random Number Based Game.md]]
 
