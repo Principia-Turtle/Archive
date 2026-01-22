@@ -75,7 +75,7 @@ $$
 W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 12.66 \space : \space \frac{15.77}{1 - HIT_{miss}} \space : \space \frac{\frac{22.1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
 
-So the lower the number, the better.
+So the lower the number, the better. This relation also confirms, why hit is the first stat everyone should start with, it reduces the effectivness of all the other stats.
 
 
 
