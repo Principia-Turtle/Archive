@@ -46,10 +46,10 @@ $$
 
 ## Adding crit
 
-If the spell crits, it does 200% or more damage, depending on talent options, for instance mages ignite adds 40% to this value. Doing twice the damage on one cast is same like doing two casts. Imagine a 100 casts long fight, if you have 1% of more haste is the same like having 1% extra crit. Hence formula becomes:
+Read the related node, the formula becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space 1 \times \frac{1}{Crit_{bonus}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space 1 \times \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
 $$
 
 
@@ -61,8 +61,9 @@ $$
 To add spell power we need to do the math as in [[Spell and healing power]]. Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating. formula with the ratings then becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space \frac{1}{Crit_{bonus} } \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
+
 
 
 
@@ -71,8 +72,7 @@ $$
 In final weights I am interested in "how much of each stat will increase my performance by 1\%" Hence the weights, after multiplying it by ratings are:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 
-12.66 \space : \space \frac{15.77}{1 - HIT_{miss}} \space : \space \frac{22.1}{Crit_{bonus} } \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \left( \frac{Base_{spell}}{C} + SP_{current} \right)
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 12.66 \space : \space \frac{15.77}{1 - HIT_{miss}} \space : \space \frac{\frac{22.1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
 
 So the lower the number, the better.
