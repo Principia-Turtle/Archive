@@ -12,7 +12,7 @@ We follow the math to tell us the answers. Following the path leads us usually t
 
 Also remember a game should be enjoyed. If you enjoy the math behind it like I do, you are in the right place, if you don't, I like exploring, or lore and roleplaying too!
 
-Want to join the project? So far it is only me. Contact me in the game: [[Author-Orfeus]]
+Want to join the project? So far it is only me. Join the discussion here: https://discord.gg/yZaY2NjC
 
 >I believe information should be always free for everyone, but a lot of my time I have dedicated to building this site. If you want to support the project, send me something small via the game mail :)
 
