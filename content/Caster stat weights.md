@@ -81,7 +81,7 @@ So the lower the number, the better. This relation also confirms, why hit is the
 
 ## Movement penalty
 
-The benefit of working with the weight in this form, rather than 1 : 0.97 : 0.75 ... etc. is that we can directly see how moving punishes us during encounters. Missing 1 cast is equal to loosing 2-3 sec of our active casting time. Maybe having 30 extra spell power will buy us a few percent -> seconds of activity, or we can compensate lack of gear by correct positioning on the start of encounter. Hence we can relate the all the stats to a more basic unit - time.
+The benefit of working with the weight in this form, rather than 1 : 0.97 : 0.75 ... etc. is that we can directly see how moving punishes us during encounters. Moving for 1\% of the encounter is equal to loosing 1\% equivalent of some of the stat. Maybe having 30 extra spell power will buy us a few percent -> seconds of activity, or we can compensate lack of gear by correct positioning on the start of encounter. Hence we can relate the all the stats to a more basic unit - time.
 
 ## Authors opinion
 
