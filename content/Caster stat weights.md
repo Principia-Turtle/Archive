@@ -83,6 +83,10 @@ So the lower the number, the better. This relation also confirms, why hit is the
 
 The benefit of working with the weight in this form, rather than 1 : 0.97 : 0.75 ... etc. is that we can directly see how moving punishes us during encounters. Missing 1 cast is equal to loosing 2-3 sec of our active casting time. Maybe having 30 extra spell power will buy us a few percent -> seconds of activity, or we can compensate lack of gear by correct positioning on the start of encounter. Hence we can relate the all the stats to a more basic unit - time.
 
+## Authors opinion
+
+As you can see once you do the calculations, food buffs with this stats do not change the performance pretty much at all unless you play perfectly. It is much more useful to have stamina food buff and maybe even elixir/flask. It makes the likeliness of raid survival higher.
+
 
 
 
