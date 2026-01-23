@@ -85,7 +85,7 @@ The benefit of working with the weight in this form, rather than 1 : 0.97 : 0.75
 
 ## Authors opinion
 
-As you can see once you do the calculations, food buffs with this stats do not change the performance pretty much at all unless you play perfectly. It is much more useful to have stamina food buff and maybe even elixir/flask. It makes the likeliness of raid survival higher. If you die even on one fight in the whole raid evening, you loose so much more, than 1-2\%.
+As you can see once you do the calculations, food buffs with this stats do not change the performance pretty much at all unless you play perfectly without RNG. It is much more useful to have stamina food buff and maybe even elixir/flask. It makes the likeliness of raid survival higher. If you die even on one fight in the whole raid evening, you loose so much more, than 1-2\%.
 
 
 
