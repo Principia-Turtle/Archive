@@ -12,7 +12,7 @@ none
 
 ## Introduction
 
-Earlier (see related nodes) we established all stats as percentual damage increase, the most complicated of them was spell power due to the fact it works as a flat increase, rather than percentual. To make the stat weights we consider 1% to damage via each stat.
+Earlier (see related nodes) we established all stats as percentual damage increase, the most complicated of them was spell power due to the fact it works as a flat increase, rather than percentual. To make the stat weights we consider 1% addition to performance via each stat. This means, counterintuitively, that higher weight is less efficient. It might be confusing on one hand, but on the other it will let us link the weights to time.
 
 The Hit to Haste relation will be constant for all classes (read [[Hit cap vs haste]]), Crit and intellect weight will only depend on your spells and talents (read [[Spell crit]]) and SP rating needs to be calculated for each spell and itemisation individually (read [[Spell and healing power]]).
 
@@ -24,7 +24,7 @@ The one thing area of effect spells change, is the number of trials / casts. Ano
 
 ## Healing classes
 
-Healers don't deal with hit, hence they should set $W_{haste} = 1$
+Healers don't deal with hit, hence they should set $Hit_{miss} = 0$
 
 ## Relating haste to hit
 
