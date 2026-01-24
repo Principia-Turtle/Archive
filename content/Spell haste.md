@@ -73,14 +73,25 @@ $$
 
 We always have to round the number down, let n be N rounded down.
 
-Now it is handy to convert it back:
+Now it is handy to convert it back and get some constant out of it, so we solve for h, which is our "effective" haste:
 
 $$
 n
-= \frac{T_{fight}}{T_{cast}} \times H
+= \frac{T_{fight}}{T_{cast}} \times h
 $$
 
-Now we solve for H and this will gives us a constant, by which we will multiply our weight.
+$$
+h
+= \frac{n}{\frac{T_{fight}}{T_{cast}}}
+$$
+
+And to get the constant C:
+
+$$
+C = \frac{h}{H}
+$$
+
+
 
 ## Python
 
