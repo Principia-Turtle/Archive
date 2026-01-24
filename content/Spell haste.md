@@ -8,7 +8,7 @@ none
 
 ### Related nodes:
 
-[[Hit cap vs haste.md]]
+[[Hit cap vs haste.md]], [[Caster stat weights.md]]
 
 ## Introduction
 
@@ -52,6 +52,35 @@ As you can see in the previous graph, the effect of haste on time is not linear,
 This doesn't mean there are diminishing returns on your number of casts, healing, damage or anything, there is no soft cap, because the vertical axis is cast time, not number of casts. There is only the 1s hard cap. The effect on casts performed in a given time window is linear:
 
 ![media/graph-melee-miss-chance.png](../media/impact-of-haste-rating-on-cast-time-2.png)
+
+## Haste and fight lenght
+
+In [[Caster stat weights.md]] we have created link between stats and time. Haste will have different effect, depending on the lenght of the encounter, because we might not be able to finish the extra cast our haste gives us. The formula will be a relation between fight lengt, cast time and haste. 
+
+This is the number of casts we would do without haste:
+
+$$
+N_{Casts}
+= \frac{T_{fight}}{T_{cast}}
+$$
+
+And then we simply multiply it by the haste, in the percent form:
+
+$$
+N_{Casts}
+= \frac{T_{fight}}{T_{cast}} \times H
+$$
+
+We always have to round the number down, let n be N rounded down.
+
+Now it is handy to convert it back:
+
+$$
+n
+= \frac{T_{fight}}{T_{cast}} \times H
+$$
+
+Now we solve for H and this will gives us a constant, by which we will multiply our weight.
 
 ## Python
 
