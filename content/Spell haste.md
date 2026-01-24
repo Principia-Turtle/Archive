@@ -85,10 +85,10 @@ h
 = \frac{n}{\frac{T_{fight}}{T_{cast}}}
 $$
 
-And to get the constant C:
+And to get the constant $\varphi$:
 
 $$
-C = \frac{h}{H} \leq 1
+\varphi = \frac{h}{H} \leq 1
 $$
 
 
