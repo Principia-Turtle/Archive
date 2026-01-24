@@ -36,7 +36,7 @@ Spell hit, along with haste and crit, is a subject to volatility. In [[Hit cap v
 So we get relation:
 
 $$
-W_{hit} \space : \space W_{haste} = 1 \space : \space \frac{1}{1 - HIT_{miss}} / C
+W_{hit} \space : \space W_{haste} = 1 \space : \space \frac{1}{1 - HIT_{miss}} / \varphi 
 $$
 
 Where C is the constant which we calculate based on our haste, fight lenght and basic cast time.
@@ -49,7 +49,7 @@ Where C is the constant which we calculate based on our haste, fight lenght and 
 Read the related node, the formula becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{1}{(1 - HIT_{miss}) \times C} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{1}{(1 - HIT_{miss}) \times \varphi } \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
 $$
 
 
@@ -61,7 +61,7 @@ $$
 To add spell power we need to do the math as in [[Spell and healing power]]. Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating. formula with the ratings then becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space \frac{1}{(1 - HIT_{miss}) \times C} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space \frac{1}{(1 - HIT_{miss}) \times \varphi} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
 
 
@@ -72,7 +72,7 @@ $$
 In final weights I am interested in "how much of each stat will increase my performance by 1\%" Hence the weights, after multiplying it by ratings are:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 12.66 \space : \space \frac{15.77}{(1 - HIT_{miss}) \times C} \space : \space \frac{\frac{22.1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 12.66 \space : \space \frac{15.77}{(1 - HIT_{miss}) \times \varphi } \space : \space \frac{\frac{22.1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
 
 So the lower the number, the better. This relation also confirms, why hit is the first stat everyone should start with, it reduces the effectivness of all the other stats.
