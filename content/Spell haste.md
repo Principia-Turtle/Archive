@@ -88,7 +88,7 @@ $$
 And to get the constant C:
 
 $$
-C = \frac{h}{H}
+C = \frac{h}{H} \leq 1
 $$
 
 
