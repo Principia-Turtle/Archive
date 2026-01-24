@@ -39,7 +39,7 @@ $$
 W_{hit} \space : \space W_{haste} = 1 \space : \space \frac{1}{1 - HIT_{miss}} / \varphi 
 $$
 
-Where C is the constant which we calculate based on our haste, fight lenght and basic cast time.
+Where $\varphi$ is the constant which we calculate based on our haste, fight lenght and basic cast time.
 
 
 >Hit miss is a positive number
