@@ -28,9 +28,7 @@ Healers don't deal with hit, hence they should set $Hit_{miss} = 0$
 
 ## Relating haste to hit
 
-12.6 spell hit rating increases your chance to hit by 1%.
-
-15.77 spell haste rating will increase spell haste by 1%
+It is important to read the related nodes first. [[Spell haste]], [[Hit cap vs haste]]
 
 Spell hit, along with haste and crit, is a subject to volatility. In [[Hit cap vs haste]] we can see, that haste is roughly (1) 97.8% - 100% as effective as hit.
 >Taking an average, depending on how much hit caster is missing
@@ -38,8 +36,10 @@ Spell hit, along with haste and crit, is a subject to volatility. In [[Hit cap v
 So we get relation:
 
 $$
-W_{hit} \space : \space W_{haste} = 1 \space : \space \frac{1}{1 - HIT_{miss}}
+W_{hit} \space : \space W_{haste} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \times C
 $$
+
+Where C is the constant which we calculate based on our haste, fight lenght and basic cast time.
 
 
 >Hit miss is a positive number
@@ -49,7 +49,7 @@ $$
 Read the related node, the formula becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} = 1 \space : \space \frac{C}{1 - HIT_{miss}} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}}
 $$
 
 
@@ -61,7 +61,7 @@ $$
 To add spell power we need to do the math as in [[Spell and healing power]]. Every 80 points of intellect give us 1% spell crit, we can directly relate it to spell crit then: 22.1/80 = 0.276 = effectivness of intellect compared to spell crit rating. formula with the ratings then becomes:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space \frac{1}{1 - HIT_{miss}} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 1 \space : \space \frac{C}{1 - HIT_{miss}} \space : \space \frac{\frac{1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
 
 
@@ -72,7 +72,7 @@ $$
 In final weights I am interested in "how much of each stat will increase my performance by 1\%" Hence the weights, after multiplying it by ratings are:
 
 $$
-W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 12.66 \space : \space \frac{15.77}{1 - HIT_{miss}} \space : \space \frac{\frac{22.1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
+W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 12.66 \space : \space \frac{C \times 15.77}{1 - HIT_{miss}} \space : \space \frac{\frac{22.1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
 
 So the lower the number, the better. This relation also confirms, why hit is the first stat everyone should start with, it reduces the effectivness of all the other stats.
