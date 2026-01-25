@@ -90,11 +90,6 @@ As you can see once you do the calculations, food buffs with this stats do not c
 
 
 
-## Python
-
-Script for the graph in google colab
-
-[Download the Python Script](caster-stat-weights.py)
 
 
 
