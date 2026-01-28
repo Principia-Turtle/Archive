@@ -91,6 +91,16 @@ $$
 \varphi = \frac{h}{H} \leq 1
 $$
 
+## Example of Quagmirran's eye trinket
+
+320 haste for 6 sec, 45 sec cooldown. Hence the uptime is: 6/45 = 0.133.. this leads to total haste benefit in ideal conditions: $0.133 \times 320 = 42.6$ haste = 2.7\%
+
+Let's consider 2.5 sec cast, then 2.7\% = 0.0675 sec
+
+And we wonder after how long time we will save 2.5 seconds, to get an extra cast: 2.5 / 0.0675 = 37 casts, which means every 92.6 seconds. 
+
+So the full benefit (extra cast) of the trinket we will get only on 92.6, 185.2, 370.4.. seconds long fights, this means that a fight between 1.5 - 3 minutes can make our trinket haste effect only half as effective (as we approach 3 min)
+
 
 
 ## Python
