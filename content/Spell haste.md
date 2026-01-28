@@ -101,6 +101,8 @@ And we wonder after how long time we will save 2.5 seconds, to get an extra cast
 
 So the full benefit (extra cast) of the trinket we will get only on 92.6, 185.2, 370.4.. seconds long fights, this means that a fight between 1.5 - 3 minutes can make our trinket haste effect only half as effective (as we approach 3 min)
 
+Also remember that the effect is triggered on hit, you might be casting already when the trinket procs and you can loose 1-2 sec of the trinket uptime. I don't really believe it is as good as people say.
+
 
 
 ## Python
