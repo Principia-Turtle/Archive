@@ -26,6 +26,8 @@ The one thing area of effect spells change, is the number of trials / casts. Ano
 
 Healers don't deal with hit, hence they should set $Hit_{miss} = 0$
 
+Also having crit might not be the best option for most healing classes. For instance resto druid hots will not benefit from it and for other classes having crit might just lead to overhealing. The only healer benefiting from crit is, in my opinion, holy paladin, because he regens mana on crits.
+
 ## Relating haste to hit
 
 It is important to read the related nodes first. [[Spell haste]], [[Hit cap vs haste]]
