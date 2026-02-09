@@ -23,5 +23,5 @@ As of 2026 I have joined classic to experience the TBC again, I do not care for 
 My main was mage and CoH priest, hence on this archive I talk mostly about the casting class mechanics.
 
 
-This is our casual run from the guild I became GM of, mage PoV.
+This is our casual run from the guild I became co-GM of, mage PoV.
 https://www.youtube.com/watch?v=TgX9UYKg_dE
