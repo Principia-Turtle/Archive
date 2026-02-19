@@ -79,13 +79,13 @@ $$
 W_{hit} \space : \space W_{haste} \space : \space W_{crit} \space : \space W_{INT} \space : W_{SP} = 12.66 \space : \space \frac{15.77}{(1 - HIT_{miss}) \times \varphi } \space : \space \frac{\frac{22.1}{Crit_{bonus}}}{1 - Hit_{miss}} \space : \space  \frac{W_{crit}}{0.276} \space :  \space 0.01 \times \frac{\frac{Base_{spell}}{C} + SP_{current}}{1 - HIT_{miss}}
 $$
 
-So the lower the number, the better. This relation also confirms, why hit is the first stat everyone should start with, it reduces the effectivness of all the other stats.
+So the lower the number, the better. This relation also shows, why hit is the first stat everyone should start with, it increases the effectivness of all the other stats.
 
 
 
 ## Movement penalty
 
-The benefit of working with the weight in this form, rather than 1 : 0.97 : 0.75 ... etc. is that we can directly see how moving punishes us during encounters. Moving for 1\% of the encounter is equal to loosing 1\% equivalent of some of the stat. Maybe having 30 extra spell power will buy us a few percent -> seconds of activity, or we can compensate lack of gear by correct positioning on the start of encounter. Hence we can relate the all the stats to a more basic unit - time.
+The benefit of working with the weight in this form, rather than 1 : 0.97 : 0.75 ... etc. is that we can directly see how doing nothing / moving punishes us during encounters. Moving for 1\% of the encounter is equal to loosing 1\% equivalent of some of the stat. Maybe having 30 extra spell power will buy us a few percent -> seconds of activity, or we can compensate lack of gear by correct positioning on the start of encounter. Hence we can relate the all the stats to a more basic unit - time. Also for healers you can see, that sorting out your mana is the first thing you should do.
 
 ## Authors opinion
 
