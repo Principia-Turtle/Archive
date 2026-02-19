@@ -21,7 +21,7 @@ Want to join the project? So far it is only me. Join the discussion here: https:
 
 **[[Mechanics of Random Number Based Game]]**: How does combat in a random number based game work?
 
-**[[Melee hit mechanics]]**: How melee hits work?
+**[[Melee hit mechanics]]**: How melee hits work? Copy of others work
 
 **[[Hit cap vs haste]]**: Can we substitute hit for attack speed?
 
@@ -33,7 +33,7 @@ Want to join the project? So far it is only me. Join the discussion here: https:
 
 **[[Caster stat weights]]**: For gearing priorities
 
-**[[Weapon damage]]**
+**[[Weapon damage]]** Expanded Copy of others work
 
 
 ### Classes
